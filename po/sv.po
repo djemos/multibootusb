@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Ingemar Karlsson <ingemar@ingk.se>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: salix-live-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-11 21:26+0200\n"
+"PO-Revision-Date: 2019-03-07 02:32+0200\n"
+"Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/djemos/salix-live-installer/"
+"language/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: src/multibootusb.ui:76
+msgid "vfat"
+msgstr "vfat"
+
+#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
+#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+msgid "Multiboot USB"
+msgstr ""
+
+#: src/multibootusb.ui:100
+msgid "_File"
+msgstr "_Arkiv"
+
+#: src/multibootusb.ui:130
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: src/multibootusb.ui:173
+msgid "Select directory with iso images:"
+msgstr ""
+
+#: src/multibootusb.ui:228
+msgid "Find usb"
+msgstr ""
+
+#: src/multibootusb.ui:299 src/multibootusb.ui:313
+msgid "Choose the filesystem type to format usb."
+msgstr ""
+
+#: src/multibootusb.ui:300
+msgid "Filesystem Type:"
+msgstr ""
+
+#: src/multibootusb.ui:368
+msgid "USB Label name:"
+msgstr ""
+
+#: src/multibootusb.ui:418
+msgid "Select time zone..."
+msgstr ""
+
+#: src/multibootusb.ui:467 src/multibootusb.ui:1898
+msgid "Language"
+msgstr ""
+
+#: src/multibootusb.ui:494
+msgid "keyboard"
+msgstr ""
+
+#: src/multibootusb.ui:581
+msgid "Create multiboot iso usb"
+msgstr ""
+
+#: src/multibootusb.ui:673
+msgid "About"
+msgstr "Om"
+
+#: src/multibootusb.ui:1360
+msgid "translator-credits"
+msgstr ""
+
+#: src/multibootusb.ui:1394
+msgid "Error encountered."
+msgstr "Fel uppstod."
+
+#: src/multibootusb.ui:1440
+msgid "Installation completed."
+msgstr "Installation slutförd."
+
+#: src/multibootusb.ui:1553
+msgid "Please choose a folder with iso images, not an iso file."
+msgstr ""
+
+#: src/multibootusb.ui:1668
+msgid "Please select your preferred keyboard type and map."
+msgstr ""
+
+#: src/multibootusb.ui:1705
+msgid "keyboard type"
+msgstr ""
+
+#: src/multibootusb.ui:1739
+msgid "keyboard map"
+msgstr ""
+
+#: src/multibootusb.ui:1864
+msgid "Please select a default system locale."
+msgstr ""
+
+#: src/multibootusb.ui:1910
+msgid "Locale"
+msgstr ""
+
+#: src/multibootusb.ui:1951
+msgid "Select time zone"
+msgstr ""
+
+#: src/multibootusb.ui:2017
+msgid "Please select your time zone:"
+msgstr ""
+
+#: src/multibootusb.ui:2053
+msgid "General area"
+msgstr ""
+
+#: src/multibootusb.ui:2086
+#, fuzzy
+msgid "Location"
+msgstr "Kopiera till plats:"
+
+#: src/multibootusb.desktop.in.h:1 src/multibootusb-kde.desktop.in.h:1
+msgid "Μultiboot USB"
+msgstr ""
+
+#~ msgid "ext3"
+#~ msgstr "ext3"
+
+#~ msgid "sli"
+#~ msgstr "sli"
+
+#~ msgid "Error: system is not live."
+#~ msgstr "Fel: systemet är inte live."
+
+#~ msgid "btrfs"
+#~ msgstr "btrfs"
+
+#~ msgid "ext2"
+#~ msgstr "ext2"
+
+#~ msgid "ext4"
+#~ msgstr "ext4"
+
+#~ msgid "jfs"
+#~ msgstr "jfs"
+
+#~ msgid "reiserfs"
+#~ msgstr "reiserfs"
+
+#~ msgid "xfs"
+#~ msgstr "xfs"
+
+#~ msgid "Partitions"
+#~ msgstr "Partitioner"
+
+#~ msgid ""
+#~ "Important!\n"
+#~ "\n"
+#~ "Slackel needs, at the very minimum, one swap partition\n"
+#~ "and one Linux partition to hold its main directory tree.\n"
+#~ "\n"
+#~ "If you do not already have these needed partitions ready, \n"
+#~ "you should now click on the button 'Partitions'\n"
+#~ "in order to create them. Be aware that partitioning a disk\n"
+#~ "drive is a delicate operation which could lead to data loss\n"
+#~ "if not performed cautiously. It is therefore highly advisable\n"
+#~ "to backup important data before starting this procedure."
+#~ msgstr ""
+#~ "Viktigt!\n"
+#~ "\n"
+#~ "Slackel behöver åtminstone en swap-partition\n"
+#~ "och en Linux-partition för att hålla sin huvudkatalogträd.\n"
+#~ "\n"
+#~ "Om du inte redan har dessa nödvändiga partitioner redo,\n"
+#~ "bör du nu klicka på knappen \"partitioner\"\n"
+#~ "för att skapa dem. Var medveten om att partitionera en hårddisk\n"
+#~ "är en känslig operation som skulle kunna leda till förlust av data\n"
+#~ "om den inte utförs försiktigt. Det är därför mycket lämpligt\n"
+#~ "att säkerhetskopiera viktiga data innan du startar denna procedur."
+
+#~ msgid ""
+#~ "<i>Warning: copy / installation wipes everything on the selected location."
+#~ "</i>"
+#~ msgstr ""
+#~ "<i>Varning: kopiera / installation radderar allt på den valda platsen.</i>"
+
+#~ msgid "Copy location:"
+#~ msgstr "Kopiera till plats:"
+
+#~ msgid "click here if you want to copy system to usb"
+#~ msgstr "klicka här om du vill kopiera systemet till usb"
+
+#~ msgid "Install (e)LiLo"
+#~ msgstr "Installera (e)Lilo"
+
+#~ msgid "check this if you want to install (e)Lilo boot loader"
+#~ msgstr "markera den här om du vill installera (e)Lilo starthanterare"
+
+#~ msgid "Install Grub"
+#~ msgstr "Installera Grub"
+
+#~ msgid "check this if you want to install Grub boot loader"
+#~ msgstr "markera den här om du vill installera Grub starthanterare"
+
+#~ msgid "Install location:"
+#~ msgstr "Installationsplats:"
+
+#~ msgid "Home location:"
+#~ msgstr "Home Plats:"
+
+#~ msgid ""
+#~ "If you want to use a home partition to another disk then choose one from "
+#~ "here.\n"
+#~ "Otherwise leave it empty."
+#~ msgstr ""
+#~ "Om du vill använda en home-partition på en annan hårddisk välj en "
+#~ "härifrån.\n"
+#~ "Annars lämna det tomt."
+
+#~ msgid "click here if you want to install system on hard disk"
+#~ msgstr "Klicka här om du vill installera systemet på hårddisk"
+
+#~ msgid "Install live system"
+#~ msgstr "Installera livesystemet"
+
+#~ msgid "Actions needed before proceeding with system installation.\n"
+#~ msgstr ""
+#~ "Åtgärder krävs innan du fortsätter med installationen av systemet.\n"
+
+#~ msgid "user name"
+#~ msgstr "användarnamn"
+
+#~ msgid "user password"
+#~ msgstr "användarlösenord"
+
+#~ msgid ""
+#~ "Here you must define your login name which should only include\n"
+#~ "alphanumerical characters with no space or upper case letters. "
+#~ msgstr ""
+#~ "Här måste du ange ditt inloggningsnamn som bara bör omfatta\n"
+#~ "alfanumeriska tecken utan mellanslag eller stora bokstäver."
+
+#~ msgid ""
+#~ "Choose a password or passphrase to be coupled with your\n"
+#~ "login name. Your password or passprase should include a mix\n"
+#~ "of upper and lower case letters, numbers, and even symbols\n"
+#~ "(such as the @, !, and &)"
+#~ msgstr ""
+#~ "Välj ett lösenord eller lösenordsfras att sammankopplas med ditt\n"
+#~ "inloggningsnamn. Ditt lösenord eller lösenordsfras bör innehålla en "
+#~ "blandning\n"
+#~ "av stora och små bokstäver, siffror, och även symboler\n"
+#~ "(t.ex. @,!, och &)"
+
+#~ msgid ""
+#~ "Here you must retype your password as\n"
+#~ "a confirmation of your choice."
+#~ msgstr ""
+#~ "Här måste du skriva in ditt lösenord som\n"
+#~ "en bekräftelse på ditt val."
+
+#~ msgid "visible"
+#~ msgstr "synlig"
+
+#~ msgid ""
+#~ "Check this box if you want to be able to see the password\n"
+#~ "you are typing."
+#~ msgstr ""
+#~ "Markera den här rutan om du vill kunna se lösenordet\n"
+#~ "du skriver."
+
+#~ msgid "Choose installation mode"
+#~ msgstr "Välj installationsläge"
+
+#~ msgid "core installation"
+#~ msgstr "core installation"
+
+#~ msgid ""
+#~ "Core installation:\n"
+#~ "Only the minimum essentials for a console system to start are \n"
+#~ "included. A graphical environment is not provided. This is ideal \n"
+#~ "if you are an experienced user and want to customize your \n"
+#~ "installation for any specific purpose, such as a web server.\n"
+#~ "file server etc. "
+#~ msgstr ""
+#~ "Core installation:\n"
+#~ "Det minsta du behöver för ett konsol system.\n"
+#~ "En grafisk miljö ingår inte. Detta är perfekt \n"
+#~ "om du är en van användare och som vill anpassa\n"
+#~ "din installationen för något speciellt ändamål,\n"
+#~ "t.ex. en webbserver, filserver m.m."
+
+#~ msgid "basic installation"
+#~ msgstr "grundläggande installation"
+
+#~ msgid ""
+#~ "Basic installation:\n"
+#~ "This installs only a basic desktop environment, with very few \n"
+#~ "extra applications installed on top, such as a web browser and\n"
+#~ "the gslapt package manager. Ideal for advanced users that \n"
+#~ "would like to install a lightweight system and add their own\n"
+#~ "choice of applications. "
+#~ msgstr ""
+#~ "Grundläggande installation:\n"
+#~ "Detta installerar bara ett grundläggande skrivbordsmiljö, med mycket få\n"
+#~ "extra program installerade, till exempel en webbläsare och\n"
+#~ "gslapt pakethanterare. Idealisk för avancerade användare\n"
+#~ "som vill installera ett lättviktigt system och lägga till sina egna\n"
+#~ "val av applikationer."
+
+#~ msgid "full installation"
+#~ msgstr "fullständig installation"
+
+#~ msgid ""
+#~ "Full installation:\n"
+#~ "Everything that is included in the iso is installed. That includes \n"
+#~ "a complete desktop environment\n"
+#~ "and a complete selection of matching applications,\n"
+#~ "always following the \"one application per task\" rationale. "
+#~ msgstr ""
+#~ "Fullständig installation:\n"
+#~ "Allt som ingår i ISO installeras. Det innefattar\n"
+#~ "en komplett skrivbordsmiljö\n"
+#~ "och ett komplett utbud av matchande applikationer,\n"
+#~ "alltid efter \"ett program per uppgift\" filosofin."
+
+#~ msgid ""
+#~ "Cannot install both (e)Lilo and Grub boot loaders. Please verify and "
+#~ "correct."
+#~ msgstr ""
+#~ "Kan inte installera både (e)Lilo och Grub starthanterare. Vänligen "
+#~ "kontrollera och rätta."
+
+#~ msgid ""
+#~ "Your two user password entries do not match. Please verify and correct."
+#~ msgstr ""
+#~ "Dina två användar lösenordsangivelser matchar inte. Vänligen kontrollera "
+#~ "och rätta."
+
+#~ msgid "http://slackware-live.tuxfamily.org"
+#~ msgstr "http://slackware-live.tuxfamily.org"
+
+#~ msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
+#~ msgstr "CeCILL <http://www.cecill.info/licences.fr.html>"

@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-11 21:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/multibootusb.ui:76
+msgid "vfat"
+msgstr ""
+
+#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
+#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+msgid "Multiboot USB"
+msgstr ""
+
+#: src/multibootusb.ui:100
+msgid "_File"
+msgstr ""
+
+#: src/multibootusb.ui:130
+msgid "_Help"
+msgstr ""
+
+#: src/multibootusb.ui:173
+msgid "Select directory with iso images:"
+msgstr ""
+
+#: src/multibootusb.ui:228
+msgid "Find usb"
+msgstr ""
+
+#: src/multibootusb.ui:299 src/multibootusb.ui:313
+msgid "Choose the filesystem type to format usb."
+msgstr ""
+
+#: src/multibootusb.ui:300
+msgid "Filesystem Type:"
+msgstr ""
+
+#: src/multibootusb.ui:368
+msgid "USB Label name:"
+msgstr ""
+
+#: src/multibootusb.ui:418
+msgid "Select time zone..."
+msgstr ""
+
+#: src/multibootusb.ui:467 src/multibootusb.ui:1898
+msgid "Language"
+msgstr ""
+
+#: src/multibootusb.ui:494
+msgid "keyboard"
+msgstr ""
+
+#: src/multibootusb.ui:581
+msgid "Create multiboot iso usb"
+msgstr ""
+
+#: src/multibootusb.ui:673
+msgid "About"
+msgstr ""
+
+#: src/multibootusb.ui:1360
+msgid "translator-credits"
+msgstr ""
+
+#: src/multibootusb.ui:1394
+msgid "Error encountered."
+msgstr ""
+
+#: src/multibootusb.ui:1440
+msgid "Installation completed."
+msgstr ""
+
+#: src/multibootusb.ui:1553
+msgid "Please choose a folder with iso images, not an iso file."
+msgstr ""
+
+#: src/multibootusb.ui:1668
+msgid "Please select your preferred keyboard type and map."
+msgstr ""
+
+#: src/multibootusb.ui:1705
+msgid "keyboard type"
+msgstr ""
+
+#: src/multibootusb.ui:1739
+msgid "keyboard map"
+msgstr ""
+
+#: src/multibootusb.ui:1864
+msgid "Please select a default system locale."
+msgstr ""
+
+#: src/multibootusb.ui:1910
+msgid "Locale"
+msgstr ""
+
+#: src/multibootusb.ui:1951
+msgid "Select time zone"
+msgstr ""
+
+#: src/multibootusb.ui:2017
+msgid "Please select your time zone:"
+msgstr ""
+
+#: src/multibootusb.ui:2053
+msgid "General area"
+msgstr ""
+
+#: src/multibootusb.ui:2086
+msgid "Location"
+msgstr ""
+
+#: src/multibootusb.desktop.in.h:1 src/multibootusb-kde.desktop.in.h:1
+msgid "Μultiboot USB"
+msgstr ""

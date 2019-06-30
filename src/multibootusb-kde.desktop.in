@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Categories=System
+Exec=kdesu /usr/sbin/mutlibootusb
+Icon=multibootusb
+OnlyShowIn=KDE
+StartupNotify=true
+Terminal=false
+NoDisplay=false
+_Name=Μultiboot USB
+_GenericName=Μultiboot USB
+_Comment=Μultiboot USB

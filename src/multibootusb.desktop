@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+
+Name=Create Μultiboot USB
+Name[el]=Δημιουργία Μultiboot USB
+
+Categories=System
+Exec=gksu /usr/sbin/multibootusb
+Icon=multibootusb
+NotShowIn=KDE

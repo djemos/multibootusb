@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Dimitris Tzemos <dijemos@gmail.com>, 2015,2017
+# GabiT. <splanckx@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: slackel-live-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-11 21:26+0200\n"
+"PO-Revision-Date: 2019-03-07 02:31+0200\n"
+"Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/djemos/slackel-live-"
+"installer/language/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: src/multibootusb.ui:76
+msgid "vfat"
+msgstr "vfat"
+
+#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
+#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+msgid "Multiboot USB"
+msgstr ""
+
+#: src/multibootusb.ui:100
+msgid "_File"
+msgstr "_Fișier"
+
+#: src/multibootusb.ui:130
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: src/multibootusb.ui:173
+msgid "Select directory with iso images:"
+msgstr ""
+
+#: src/multibootusb.ui:228
+msgid "Find usb"
+msgstr ""
+
+#: src/multibootusb.ui:299 src/multibootusb.ui:313
+msgid "Choose the filesystem type to format usb."
+msgstr "Alegeți tipul de sistem de fișiere pentru a formata usb."
+
+#: src/multibootusb.ui:300
+msgid "Filesystem Type:"
+msgstr "Tipul sistemului de fișiere:"
+
+#: src/multibootusb.ui:368
+msgid "USB Label name:"
+msgstr ""
+
+#: src/multibootusb.ui:418
+msgid "Select time zone..."
+msgstr ""
+
+#: src/multibootusb.ui:467 src/multibootusb.ui:1898
+msgid "Language"
+msgstr ""
+
+#: src/multibootusb.ui:494
+msgid "keyboard"
+msgstr ""
+
+#: src/multibootusb.ui:581
+msgid "Create multiboot iso usb"
+msgstr ""
+
+#: src/multibootusb.ui:673
+msgid "About"
+msgstr "Despre"
+
+#: src/multibootusb.ui:1360
+msgid "translator-credits"
+msgstr ""
+
+#: src/multibootusb.ui:1394
+msgid "Error encountered."
+msgstr "Eroare întâmpinată."
+
+#: src/multibootusb.ui:1440
+msgid "Installation completed."
+msgstr "Instalare terminată."
+
+#: src/multibootusb.ui:1553
+msgid "Please choose a folder with iso images, not an iso file."
+msgstr ""
+
+#: src/multibootusb.ui:1668
+msgid "Please select your preferred keyboard type and map."
+msgstr ""
+
+#: src/multibootusb.ui:1705
+msgid "keyboard type"
+msgstr ""
+
+#: src/multibootusb.ui:1739
+msgid "keyboard map"
+msgstr ""
+
+#: src/multibootusb.ui:1864
+msgid "Please select a default system locale."
+msgstr ""
+
+#: src/multibootusb.ui:1910
+msgid "Locale"
+msgstr ""
+
+#: src/multibootusb.ui:1951
+msgid "Select time zone"
+msgstr ""
+
+#: src/multibootusb.ui:2017
+msgid "Please select your time zone:"
+msgstr ""
+
+#: src/multibootusb.ui:2053
+msgid "General area"
+msgstr ""
+
+#: src/multibootusb.ui:2086
+#, fuzzy
+msgid "Location"
+msgstr "Locația pentru copiere:"
+
+#: src/multibootusb.desktop.in.h:1 src/multibootusb-kde.desktop.in.h:1
+msgid "Μultiboot USB"
+msgstr ""
+
+#~ msgid "ext3"
+#~ msgstr "ext3"
+
+#~ msgid "sli"
+#~ msgstr "sli"
+
+#~ msgid "Error: system is not live."
+#~ msgstr "Eroare: sistemul nu funcționează."
+
+#~ msgid "btrfs"
+#~ msgstr "btrfs"
+
+#~ msgid "ext2"
+#~ msgstr "ext2"
+
+#~ msgid "ext4"
+#~ msgstr "ext4"
+
+#~ msgid "jfs"
+#~ msgstr "jfs"
+
+#~ msgid "reiserfs"
+#~ msgstr "reiserfs"
+
+#~ msgid "xfs"
+#~ msgstr "xfs"
+
+#~ msgid "Partitions"
+#~ msgstr "Partiționare"
+
+#~ msgid ""
+#~ "Important!\n"
+#~ "\n"
+#~ "Slackel needs, at the very minimum, one swap partition\n"
+#~ "and one Linux partition to hold its main directory tree.\n"
+#~ "\n"
+#~ "If you do not already have these needed partitions ready, \n"
+#~ "you should now click on the button 'Partitions'\n"
+#~ "in order to create them. Be aware that partitioning a disk\n"
+#~ "drive is a delicate operation which could lead to data loss\n"
+#~ "if not performed cautiously. It is therefore highly advisable\n"
+#~ "to backup important data before starting this procedure."
+#~ msgstr ""
+#~ "Important!\n"
+#~ "\n"
+#~ "Slackel necesită,cel puțin o partiție de swap\n"
+#~ "și o partiție Linux, necesară instalării sistemului de fișiere.\n"
+#~ "\n"
+#~ "Dacă nu aveți pregătite aceste partiții,\n"
+#~ "apăsați butonul 'Partiționare'\n"
+#~ "pentru a le crea. Aveți grijă, deoarece partiționarea unui disc \n"
+#~ "este o operație delicată ce poate duce la pierderea de date.\n"
+#~ "Sunteți avizați să salvați datele aflate pe disc înainte de a începe "
+#~ "procedura."
+
+#~ msgid ""
+#~ "<i>Warning: copy / installation wipes everything on the selected location."
+#~ "</i>"
+#~ msgstr ""
+#~ "<i>Atenție:copierea fișierelor în / șterge tot ce se află pe această "
+#~ "partiție.</i>"
+
+#~ msgid "Copy location:"
+#~ msgstr "Locația pentru copiere:"
+
+#~ msgid "click here if you want to copy system to usb"
+#~ msgstr "apăsați aici dacă doriți să copiați sistemul pe dispozitiv usb"
+
+#~ msgid "Install (e)LiLo"
+#~ msgstr "Instalează (e)Lilo"
+
+#~ msgid "check this if you want to install (e)Lilo boot loader"
+#~ msgstr "alegeți dacă doriți să instalați încărcătorul de sistem (e)Lilo"
+
+#~ msgid "choose the Linux partition to hold the main directory tree."
+#~ msgstr "alegeți partiția Linux pe care va fi instalat sistemul."
+
+#~ msgid "Install Grub"
+#~ msgstr "Instalează Grub"
+
+#~ msgid "check this if you want to install Grub boot loader"
+#~ msgstr "alegeți dacă vreți să instalați Grub"
+
+#~ msgid "Install location:"
+#~ msgstr "Locația instalării:"
+
+#~ msgid "Choose the filesystem type to format partition(s)."
+#~ msgstr "Alegeți tipul sistemului de fișiere pentru formatarea partițiilor."
+
+#~ msgid "Home location:"
+#~ msgstr "Locația partiției home:"
+
+#~ msgid ""
+#~ "If you want to use a home partition to another disk then choose one from "
+#~ "here.\n"
+#~ "Otherwise leave it empty."
+#~ msgstr ""
+#~ "Dacă doriți să instalați partiția /home pe alt disc,alegeți aici.\n"
+#~ "Altfel,nu modificați."
+
+#~ msgid "Format Ηome"
+#~ msgstr "Formatare Home"
+
+#~ msgid "check this if you want to format /home partition"
+#~ msgstr "alegeți aici dacă doriți formatarea partiției /home"
+
+#~ msgid "click here if you want to install system on hard disk"
+#~ msgstr "apăsați aici pentru a instala sistemul pe disc"
+
+#~ msgid "Install live system"
+#~ msgstr "Instalare sistem live"
+
+#~ msgid "Actions needed before proceeding with system installation.\n"
+#~ msgstr "Acțiuni necesare înaintea trecerii la instalarea sistemului\n"
+
+#~ msgid ""
+#~ "Set root password, define login name, choose a password to be coupled "
+#~ "with your\n"
+#~ "login name."
+#~ msgstr ""
+#~ "Setați parola root,definiți numele de logare,alegeți o parolă\n"
+#~ "pentru numele de logare."
+
+#~ msgid "root password"
+#~ msgstr "parolă root"
+
+#~ msgid "user name"
+#~ msgstr "nume user"
+
+#~ msgid "user password"
+#~ msgstr "parolă user"
+
+#~ msgid ""
+#~ "Here you must define your login name which should only include\n"
+#~ "alphanumerical characters with no space or upper case letters. "
+#~ msgstr ""
+#~ "Aici trebuie să definiți numele de logare care trebuie să includă\n"
+#~ "caractere alfanumerice,fără spații sau litere mari. "
+
+#~ msgid ""
+#~ "Choose a password or passphrase to be coupled with your\n"
+#~ "login name. Your password or passprase should include a mix\n"
+#~ "of upper and lower case letters, numbers, and even symbols\n"
+#~ "(such as the @, !, and &)"
+#~ msgstr ""
+#~ "Alegeți o parolă sau frază pentru \n"
+#~ "numele de logare.Parola sau fraza trebuie să conțină\n"
+#~ "un amestec de litere mici,mari,numere și eventual simboluri\n"
+#~ "(cum ar fi @,! și &)"
+
+#~ msgid ""
+#~ "On Linux systems, the superuser, or root, is a special user\n"
+#~ "account used for system administration. Here you must set\n"
+#~ "its password or passphrase. Remember, this password or\n"
+#~ "passphrase should include a mix of upper and lower case\n"
+#~ "letters, numbers, and even symbols (such as the @, !, and &)"
+#~ msgstr ""
+#~ "În sistemele Linux,contul de superuser sau root,este un cont special\n"
+#~ "folosit la administrarea sistemului.Aici trebuie\n"
+#~ "setată parola sau fraza pentru acesta.De reținut,această parolă\n"
+#~ "sau frază trebuie să conțină un amestec de litere mici și mari,\n"
+#~ "cifre și simboluri(cum ar fi @,! și &)."
+
+#~ msgid ""
+#~ "Here you must retype the superuser (root) password as a\n"
+#~ "confirmation of your choice."
+#~ msgstr ""
+#~ "Reintroduceți parola root\n"
+#~ "pentru confirmare."
+
+#~ msgid ""
+#~ "Here you must retype your password as\n"
+#~ "a confirmation of your choice."
+#~ msgstr ""
+#~ "Aici trebuie să reintroduceți parola\n"
+#~ "pentru a confirma alegerea."
+
+#~ msgid "visible"
+#~ msgstr "vizibil"
+
+#~ msgid ""
+#~ "Check this box if you want to be able to see the password\n"
+#~ "you are typing."
+#~ msgstr ""
+#~ "Apăsați acest buton dacă doriți să vedeți parola\n"
+#~ "introdusă."
+
+#~ msgid "Choose installation mode"
+#~ msgstr "Alegeți tipul instalării"
+
+#~ msgid "core installation"
+#~ msgstr "instalare minimală"
+
+#~ msgid ""
+#~ "Core installation:\n"
+#~ "Only the minimum essentials for a console system to start are \n"
+#~ "included. A graphical environment is not provided. This is ideal \n"
+#~ "if you are an experienced user and want to customize your \n"
+#~ "installation for any specific purpose, such as a web server.\n"
+#~ "file server etc. "
+#~ msgstr ""
+#~ "Instalare minimală:\n"
+#~ "Include doar pachetele necesare pentru a porni \n"
+#~ "sistemul.Mediul grafic nu este inclus.Acesta este ideal\n"
+#~ "pentru userii experimentați și pentru cei ce doresc să\n"
+#~ "customizeze instalarea din motive specifice,cum ar fi server\n"
+#~ "de web sau fișiere,etc."
+
+#~ msgid "basic installation"
+#~ msgstr "instalare de bază"
+
+#~ msgid ""
+#~ "Basic installation:\n"
+#~ "This installs only a basic desktop environment, with very few \n"
+#~ "extra applications installed on top, such as a web browser and\n"
+#~ "the gslapt package manager. Ideal for advanced users that \n"
+#~ "would like to install a lightweight system and add their own\n"
+#~ "choice of applications. "
+#~ msgstr ""
+#~ "Instalare de bază:\n"
+#~ "Se instalează desktop-ul de bază ce include unele extra-aplicații cum ar "
+#~ "fi \n"
+#~ "un browser de web și managerul de pachete gslapt.Este ideal pentru \n"
+#~ "userii avansați care doresc un sistem cu mai puține aplicații\n"
+#~ "și un consum redus de resurse."
+
+#~ msgid "full installation"
+#~ msgstr "instalare completă"
+
+#~ msgid ""
+#~ "Full installation:\n"
+#~ "Everything that is included in the iso is installed. That includes \n"
+#~ "a complete desktop environment\n"
+#~ "and a complete selection of matching applications,\n"
+#~ "always following the \"one application per task\" rationale. "
+#~ msgstr ""
+#~ "Instalare completă:\n"
+#~ "Cuprinde tot ce este inclus în imaginea iso.Toate aplicațiile\n"
+#~ "care vin cu desktop-ul respectiv sunt incluse."
+
+#~ msgid ""
+#~ "Cannot install Grub boot loader on an xfs filesystem. System will not "
+#~ "boot. \n"
+#~ "Choose (e)Lilo instead. Please verify and correct."
+#~ msgstr ""
+#~ "Nu puteți instala boot-loader-ul Grub pe o partiție formatată cu xfs."
+#~ "Sistemul nu va porni.Puteți încerca (e)Lilo.Vă rugăm verificați și "
+#~ "corectați. "
+
+#~ msgid ""
+#~ "Cannot install both (e)Lilo and Grub boot loaders. Please verify and "
+#~ "correct."
+#~ msgstr ""
+#~ "Nu puteți instala (e)Lilo și Grub în același timp.Vă rugăm verificați și "
+#~ "corectați."
+
+#~ msgid ""
+#~ "Your two root password entries do not match. Please verify and correct."
+#~ msgstr ""
+#~ "Cele două parole introduse pentru root nu se potrivesc.Vă rugăm "
+#~ "verificați și corectați. "
+
+#~ msgid ""
+#~ "Your two user password entries do not match. Please verify and correct."
+#~ msgstr ""
+#~ "Cele două parole introduse nu se potrivesc.Vă rugăm verificați și "
+#~ "corectați. "
+
+#~ msgid ""
+#~ "root password, user name and user password entries \n"
+#~ "cannot be emtpy.\n"
+#~ "root password and user password should have at least 5 characters\n"
+#~ "\n"
+#~ "Please verify and correct.\n"
+#~ msgstr ""
+#~ "căsuțele pentru parola root,numele userului și parola userului\n"
+#~ "nu pot fi goale.\n"
+#~ "parolele pentru root și user trebuie să aibă cel puțin 5 caractere \n"
+#~ "\n"
+#~ "Vă rugăm verificați și corectați. \n"
+
+#~ msgid "http://slackware-live.tuxfamily.org"
+#~ msgstr "http://slackware-live.tuxfamily.org"
+
+#~ msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
+#~ msgstr "CeCILL <http://www.cecill.info/licences.fr.html>"

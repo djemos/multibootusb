@@ -1,0 +1,5 @@
+#define PROJECT_NAME "multibootusb"
+#define PROJECT_VERSION "1.0"
+#define LOCALE_DIR "/usr/share/locale"
+#define UI_FILE "/usr/share/multibootusb/multibootusb.ui"
+#define APP_ICON "/usr/share/pixmaps/multibootusb.png"

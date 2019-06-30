@@ -1,0 +1,22 @@
+find_program (XGETTEXT xgettext)
+find_program (MSGFMT msgfmt)
+find_program (MSGMERGE msgmerge)
+
+add_custom_target (i18n ALL)
+add_custom_target (update_po)
+
+file (GLOB PO_FILES *.po)
+foreach (PO_FILE ${PO_FILES})
+	get_filename_component (LANGCODE ${PO_FILE} NAME_WE)
+	set (MO_FILE ${CMAKE_BINARY_DIR}/po/${LANGCODE}.mo)
+	add_custom_command (TARGET i18n COMMAND ${MSGFMT} -o ${MO_FILE} ${PO_FILE})
+	install (FILES ${MO_FILE} DESTINATION share/locale/${LANGCODE}/LC_MESSAGES RENAME ${PROJECT_NAME}.mo)
+endforeach (PO_FILE ${PO_FILES})
+
+set (POT_FILE ${CMAKE_SOURCE_DIR}/po/${PROJECT_NAME}.pot)
+file (GLOB C_FILES ${CMAKE_SOURCE_DIR}/src/*.c)
+add_custom_command (TARGET update_po COMMAND ${XGETTEXT} -o  ${POT_FILE}  -L Glade ${CMAKE_SOURCE_DIR}/src/${PROJECT_NAME}.ui)
+add_custom_command (TARGET update_po COMMAND ${XGETTEXT} -o  ${POT_FILE} -j ${C_FILES})
+foreach (PO_FILE ${PO_FILES})
+	add_custom_command (TARGET update_po COMMAND ${MSGMERGE} --backup none -U ${PO_FILE} ${POT_FILE})
+endforeach (PO_FILE ${PO_FILES})

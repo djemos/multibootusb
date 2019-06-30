@@ -1,0 +1,485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: multibootusb-1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-11 21:26+0200\n"
+"PO-Revision-Date: 2019-03-12 23:26+0200\n"
+"Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
+"Language-Team: slackel <dijemos@gmail.com>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+
+#: src/multibootusb.ui:76
+msgid "vfat"
+msgstr "vfat"
+
+#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
+#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+msgid "Multiboot USB"
+msgstr "Δημιουργία multiboot iso usb"
+
+#: src/multibootusb.ui:100
+msgid "_File"
+msgstr "_Αρχείο"
+
+#: src/multibootusb.ui:130
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: src/multibootusb.ui:173
+msgid "Select directory with iso images:"
+msgstr "Παρακαλώ επιλέξτε ένα κατάλογο με αρχεία iso."
+
+#: src/multibootusb.ui:228
+msgid "Find usb"
+msgstr "Εύρεση usb"
+
+#: src/multibootusb.ui:299 src/multibootusb.ui:313
+msgid "Choose the filesystem type to format usb."
+msgstr "Επιλέξτε τον τύπο του συστήματος αρχείων για τη διαμόρφωση του usb."
+
+#: src/multibootusb.ui:300
+msgid "Filesystem Type:"
+msgstr "Τύπος Συστήματος Αρχείων:"
+
+#: src/multibootusb.ui:368
+msgid "USB Label name:"
+msgstr "Ετικέτα USB:"
+
+#: src/multibootusb.ui:418
+msgid "Select time zone..."
+msgstr "Επιλογή ζώνης ώρας..."
+
+#: src/multibootusb.ui:467 src/multibootusb.ui:1898
+msgid "Language"
+msgstr "Γλώσσα συστήματος"
+
+#: src/multibootusb.ui:494
+msgid "keyboard"
+msgstr "Πληκτρολόγιο συστήματος"
+
+#: src/multibootusb.ui:581
+msgid "Create multiboot iso usb"
+msgstr "Δημιουργία multiboot iso usb"
+
+#: src/multibootusb.ui:673
+msgid "About"
+msgstr "Περί"
+
+#: src/multibootusb.ui:1360
+msgid "translator-credits"
+msgstr "Δημήτρης Τζέμος <dijemos~at~gmail~dot~com>"
+
+#: src/multibootusb.ui:1394
+msgid "Error encountered."
+msgstr "Συνέβη σφάλμα."
+
+#: src/multibootusb.ui:1440
+msgid "Installation completed."
+msgstr "Η εγκατάσταση τελείωσε."
+
+#: src/multibootusb.ui:1553
+msgid "Please choose a folder with iso images, not an iso file."
+msgstr "Παρακαλώ επιλέξτε ένα κατάλογο με αρχεία iso, όχι ένα αρχείο iso."
+
+#: src/multibootusb.ui:1668
+msgid "Please select your preferred keyboard type and map."
+msgstr "Παρακαλώ επιλέξτε τον επιθυμητό τύπο πληκτρολογίου."
+
+#: src/multibootusb.ui:1705
+msgid "keyboard type"
+msgstr "Τύπος πληκτρολογίου"
+
+#: src/multibootusb.ui:1739
+msgid "keyboard map"
+msgstr "Διάταξη πληκτρολογίου"
+
+#: src/multibootusb.ui:1864
+msgid "Please select a default system locale."
+msgstr "Παρακαλώ επιλέξτε τη γλώσσα συστήματος."
+
+#: src/multibootusb.ui:1910
+msgid "Locale"
+msgstr "Τοπικότητα"
+
+#: src/multibootusb.ui:1951
+msgid "Select time zone"
+msgstr "Επιλογή ζώνης ώρας"
+
+#: src/multibootusb.ui:2017
+msgid "Please select your time zone:"
+msgstr "Παρακαλούμε επιλέξτε ζώνη ώρας:"
+
+#: src/multibootusb.ui:2053
+msgid "General area"
+msgstr "Γενική περιοχή"
+
+#: src/multibootusb.ui:2086
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: src/multibootusb.desktop.in.h:1 src/multibootusb-kde.desktop.in.h:1
+msgid "Μultiboot USB"
+msgstr "Δημιουργία multiboot iso usb"
+
+#~ msgid "Create multiple iso usb"
+#~ msgstr "Δημιουργία "
+
+#~ msgid "ext3"
+#~ msgstr "ext3"
+
+#~ msgid "Live USB Installer"
+#~ msgstr "Εγκατάσταση του iso Live σε USB"
+
+#~ msgid "Select iso file:"
+#~ msgstr "Επιλέξτε αρχείο iso:"
+
+#~ msgid "Copy iso file to usb"
+#~ msgstr "Αντιγραφή εικόνας αρχείου σε usb"
+
+#~ msgid "iso Live usb installer"
+#~ msgstr "εγκατάσταση του iso Live σε USB"
+
+#~ msgid "Slackel-Live Installation"
+#~ msgstr "Εγκατάσταση του Slackel-Live"
+
+#~ msgid "sli"
+#~ msgstr "sli"
+
+#~ msgid "Error: system is not live."
+#~ msgstr "Σφάλμα: Το σύστημα δεν είναι live."
+
+#~ msgid "Keep clock synchronized with internet servers"
+#~ msgstr "Το ρολόι να συγχρονίζεται αυτόματα με διακομιστές του διαδικτύου"
+
+#~ msgid "Synchronize now"
+#~ msgstr "Συγχρονισμός τώρα"
+
+#~ msgid "Time Zone:"
+#~ msgstr "Ζώνη ώρας:"
+
+#~ msgid "Hardware clock is set to Coordinated Universal Time (UTC)"
+#~ msgstr "Το ρολόι συστήματος είναι ρυθμισμένο σε Παγκόσμια Ώρα (UTC)"
+
+#~ msgid "Time:"
+#~ msgstr "Ώρα:"
+
+#~ msgid "Date:"
+#~ msgstr "Ημερομηνία:"
+
+#~ msgid "azerty"
+#~ msgstr "azerty"
+
+#~ msgid "dvorak"
+#~ msgstr "dvorak"
+
+#~ msgid "olpc"
+#~ msgstr "olpc"
+
+#~ msgid "qwerty"
+#~ msgstr "qwerty"
+
+#~ msgid "qwertz"
+#~ msgstr "qwertz"
+
+#~ msgid "btrfs"
+#~ msgstr "btrfs"
+
+#~ msgid "ext2"
+#~ msgstr "ext2"
+
+#~ msgid "ext4"
+#~ msgstr "ext4"
+
+#~ msgid "jfs"
+#~ msgstr "jfs"
+
+#~ msgid "reiserfs"
+#~ msgstr "reiserfs"
+
+#~ msgid "xfs"
+#~ msgstr "xfs"
+
+#~ msgid "Partitions"
+#~ msgstr "Διαχειριστής κατατμήσεων"
+
+#~ msgid ""
+#~ "Important!\n"
+#~ "\n"
+#~ "Slackel needs, at the very minimum, one swap partition\n"
+#~ "and one Linux partition to hold its main directory tree.\n"
+#~ "\n"
+#~ "If you do not already have these needed partitions ready, \n"
+#~ "you should now click on the button 'Partitions'\n"
+#~ "in order to create them. Be aware that partitioning a disk\n"
+#~ "drive is a delicate operation which could lead to data loss\n"
+#~ "if not performed cautiously. It is therefore highly advisable\n"
+#~ "to backup important data before starting this procedure."
+#~ msgstr ""
+#~ "Σημαντικό!\n"
+#~ "Το Slackel χρειάζεται, το ελάχιστο, ένα διαμέρισμα swap και\n"
+#~ "ένα διαμέρισμα Linux για να κρατήσει τη κύρια δενδρική \n"
+#~ "δομή καταλόγου.\n"
+#~ "\n"
+#~ "Αν δεν έχετε ήδη αυτές τις απαραίτητες\n"
+#~ "κατατμήσεις έτοιμες, κάντε τώρα κλικ στο κουμπί \n"
+#~ "'Διαχειριστής κατατμήσεων' για να τα δημιουργήσετε.\n"
+#~ "Θα πρέπει να γνωρίζετε ότι η κατάτμηση μιας μονάδας\n"
+#~ "δίσκου είναι μια λεπτή πράξη που θα μπορούσε να οδηγήσει\n"
+#~ "σε απώλεια δεδομένων εάν δεν εκτελείται με προσοχή. \n"
+#~ "Επομένως, συνιστάται να δημιουργήσετε αντίγραφα\n"
+#~ "ασφαλείας των σημαντικών δεδομένων πριν από την\n"
+#~ "έναρξη αυτής της διαδικασίας."
+
+#~ msgid "<i>Warning: copy / installation wipes everything on the selected location.</i>"
+#~ msgstr "<i>Προειδοποίηση: Η αντιγραφή / εγκατάσταση διαγράφει τα πάντα στην επιλεγμένη τοποθεσία.</i>"
+
+#~ msgid "Copy location:"
+#~ msgstr "Αντιγραφή σε:"
+
+#~ msgid "click here if you want to copy system to usb"
+#~ msgstr "Κάντε κλικ εδώ αν θέλετε να αντιγράψετε το σύστημα σε usb"
+
+#~ msgid "Install (e)LiLo"
+#~ msgstr "Εγκατάσταση (e)LiLo"
+
+#~ msgid "check this if you want to install (e)Lilo boot loader"
+#~ msgstr "Κάντε κλικ εδώ αν θέλετε να εγκαταστήσετε το (e)Lilo boot loader"
+
+#~ msgid "choose the Linux partition to hold the main directory tree."
+#~ msgstr "Επιλέξτε το διαμέρισμα για την εγκατάσταση του κυρίως συστήματος."
+
+#~ msgid "Install Grub"
+#~ msgstr "Εγκατάσταση Grub"
+
+#~ msgid "check this if you want to install Grub boot loader"
+#~ msgstr "Κάντε κλικ εδώ αν θέλετε να εγκαταστήσετε το Grub boot loader"
+
+#~ msgid "Install location:"
+#~ msgstr "Εγκατάσταση σε:"
+
+#~ msgid "Choose the filesystem type to format partition(s)."
+#~ msgstr "Επιλέξτε τον τύπο του συστήματος αρχείων για τη διαμόρφωση των διαμερισμάτων δίσκου."
+
+#~ msgid "Home location:"
+#~ msgstr "Home διαμέρισμα:"
+
+#~ msgid ""
+#~ "If you want to use a home partition to another disk then choose one from here.\n"
+#~ "Otherwise leave it empty."
+#~ msgstr ""
+#~ "Αν θέλετε να χρησιμοποιήσετε ένα διαφορετικό διαμέρισμα για το κατάλογο χρήστη, επιλέξτε ένα από εδώ\n"
+#~ "διαφορετικά αφήστε το πεδίο κενό."
+
+#~ msgid "Format Ηome"
+#~ msgstr "Διαμόρφωση του Ηome"
+
+#~ msgid "check this if you want to format /home partition"
+#~ msgstr "Κάντε κλικ εδώ αν θέλετε να διαμορφώσετε το /home διαμέρισμα"
+
+#~ msgid "click here if you want to install system on hard disk"
+#~ msgstr "Κάντε κλικ εδώ αν θέλετε να εγκαταστήσετε το σύστημα στο σκληρό δίσκο"
+
+#~ msgid "Install live system"
+#~ msgstr "Εγκατάσταση live συστήματος"
+
+#~ msgid "Actions needed before proceeding with system installation.\n"
+#~ msgstr "Ενέργειες που χρειάζονται πριν προχωρήσετε στην εγκατάσταση του συστήματος.\n"
+
+#~ msgid "System clock"
+#~ msgstr "Ρολόι συστήματος"
+
+#~ msgid "Please set the time, date and time zone:"
+#~ msgstr "Παρακαλώ ρυθμίστε την ώρα, ημερομηνία και τη ζώνη ώρας:"
+
+#~ msgid "Select a default system locale."
+#~ msgstr "Επιλέξτε τη γλώσσα συστήματος."
+
+#~ msgid "Select your preferred keyboard type."
+#~ msgstr "Επιλέξτε τον επιθυμητό τύπο πληκτρολογίου."
+
+#~ msgid ""
+#~ "Set root password, define login name, choose a password to be coupled with your\n"
+#~ "login name."
+#~ msgstr ""
+#~ "Ορισμός κωδικού διαχειριστή, ορισμός ονόματος χρήστη, ορισμός κωδικού χρήστη\n"
+#~ "για είσοδο στο σύστημα."
+
+#~ msgid "root password"
+#~ msgstr "Συνθηματικό διαχειριστή"
+
+#~ msgid "user name"
+#~ msgstr "Όνομα χρήστη"
+
+#~ msgid "user password"
+#~ msgstr "Συνθηματικό χρήστη"
+
+#~ msgid ""
+#~ "Here you must define your login name which should only include\n"
+#~ "alphanumerical characters with no space or upper case letters. "
+#~ msgstr ""
+#~ "Εδώ πρέπει να εισάγετε το όνομα χρήστη το οποίο πρέπει να\n"
+#~ "περιλαμβάνει μόνο αλφαριθμητικούς χαρακτήρες χωρίς κενά\n"
+#~ "και κεφαλαία."
+
+#~ msgid ""
+#~ "Choose a password or passphrase to be coupled with your\n"
+#~ "login name. Your password or passprase should include a mix\n"
+#~ "of upper and lower case letters, numbers, and even symbols\n"
+#~ "(such as the @, !, and &)"
+#~ msgstr ""
+#~ "Εισάγετε έναν κωδικό χρήστη. Ο κωδικός χρήστη θα πρέπει\n"
+#~ "να περιλαμβάνει πεζά και κεφαλαία, νούμερα, ακόμα και\n"
+#~ "σύμβολα (όπως @, ! και &)."
+
+#~ msgid ""
+#~ "On Linux systems, the superuser, or root, is a special user\n"
+#~ "account used for system administration. Here you must set\n"
+#~ "its password or passphrase. Remember, this password or\n"
+#~ "passphrase should include a mix of upper and lower case\n"
+#~ "letters, numbers, and even symbols (such as the @, !, and &)"
+#~ msgstr ""
+#~ "Στα συστήματα Linux, ο διαχειριστής συστήματος, ή root,\n"
+#~ "αποτελεί ένα ειδικό λογαριασμό χρήστη που χρησιμοποιείται\n"
+#~ "για τη διαχείρηση συστήματος. Πρέπει να εισάγετε ένα\n"
+#~ "κωδικό χρήστη. Ο κωδικός θα πρέπει να περιλαμβάνει πεζά\n"
+#~ "και κεφαλαία, νούμερα, ακόμα και σύμβολα (όπως @, ! και &)"
+
+#~ msgid ""
+#~ "Here you must retype the superuser (root) password as a\n"
+#~ "confirmation of your choice."
+#~ msgstr ""
+#~ "Εδώ πρέπει να επανεισάγετε τον κωδικό διαχειριστή (root) \n"
+#~ "για επαλήθευση."
+
+#~ msgid ""
+#~ "Here you must retype your password as\n"
+#~ "a confirmation of your choice."
+#~ msgstr "Εδώ πρέπει να επανεισάγετε τον κωδικό χρήστη για επαλήθευση."
+
+#~ msgid "visible"
+#~ msgstr "Ορατό"
+
+#~ msgid ""
+#~ "Check this box if you want to be able to see the password\n"
+#~ "you are typing."
+#~ msgstr ""
+#~ "Επιλέξτε το αν επιθυμείτε να εμφανίζεται ο κωδικός\n"
+#~ "κατά την πληκτρολόγηση."
+
+#~ msgid "Choose installation mode"
+#~ msgstr "Επιλέξτε τρόπο εγκατάστασης"
+
+#~ msgid "core installation"
+#~ msgstr "Εγκατάσταση core"
+
+#~ msgid ""
+#~ "Core installation:\n"
+#~ "Only the minimum essentials for a console system to start are \n"
+#~ "included. A graphical environment is not provided. This is ideal \n"
+#~ "if you are an experienced user and want to customize your \n"
+#~ "installation for any specific purpose, such as a web server.\n"
+#~ "file server etc. "
+#~ msgstr ""
+#~ "Εγκατάσταση Core:\n"
+#~ "Μόνο τα ελάχιστα για τη λειτουργία ενός συστήματος\n"
+#~ "κονσόλας Linux θα εγκατασταθούν. Δεν περιλαμβάνεται\n"
+#~ "κανένα γραφικό περιβάλλον. Ιδανικό για έμπειρους χρήστες\n"
+#~ "που επιθυμούν να τροποποιήσουν μια εγκατάσταση για \n"
+#~ "οποιοδήποτε σκοπό, όπως web server, file server κλπ."
+
+#~ msgid "basic installation"
+#~ msgstr "Εγκατάσταση basic"
+
+#~ msgid ""
+#~ "Basic installation:\n"
+#~ "This installs only a basic desktop environment, with very few \n"
+#~ "extra applications installed on top, such as a web browser and\n"
+#~ "the gslapt package manager. Ideal for advanced users that \n"
+#~ "would like to install a lightweight system and add their own\n"
+#~ "choice of applications. "
+#~ msgstr ""
+#~ "Βασική εγκατάσταση: \n"
+#~ "Εγκαθιστά μόνο ένα βασικό περιβάλλον εργασίας, με πολύ\n"
+#~ "λίγες επιπλέον εφαρμογές που είναι εγκατεστημένες στην \n"
+#~ "κορυφή, όπως ένα πρόγραμμα περιήγησης στο Web και το \n"
+#~ "Gslapt διαχειριστή πακέτων. Ιδανικό για προχωρημένους \n"
+#~ "χρήστες που θα ήθελαν να εγκαταστήσουν ένα ελαφρύ \n"
+#~ "σύστημα και να προσθέσουν τη δική τους επιλογή εφαρμογών."
+
+#~ msgid "full installation"
+#~ msgstr "Εγκατάσταση full"
+
+#~ msgid ""
+#~ "Full installation:\n"
+#~ "Everything that is included in the iso is installed. That includes \n"
+#~ "a complete desktop environment\n"
+#~ "and a complete selection of matching applications,\n"
+#~ "always following the \"one application per task\" rationale. "
+#~ msgstr ""
+#~ "Πλήρης εγκατάσταση:\n"
+#~ "Ό, τι περιλαμβάνεται στο πρότυπο ISO θα εγκατασταθεί.\n"
+#~ "Αυτό περιλαμβάνει ένα πλήρες περιβάλλον desktop και μια\n"
+#~ "πλήρη επιλογή εφαρμογών, πάντα σύμφωνα με τη λογική \n"
+#~ "\"μία εφαρμογή για κάθε εργασία\"."
+
+#~ msgid ""
+#~ "Cannot install Grub boot loader on an xfs filesystem. System will not boot. \n"
+#~ "Choose (e)Lilo instead. Please verify and correct."
+#~ msgstr ""
+#~ "Ο Grub boot loader δεν μπορεί να εγκατασταθεί σε xfs σύστημα αρχείων. Το σύστημα σας δεν θα μπουτάρει. \n"
+#~ "Επιλέξτε το (e)Lilo. Παρακαλώ διορθώστε."
+
+#~ msgid "Cannot install both (e)Lilo and Grub boot loaders. Please verify and correct."
+#~ msgstr "Δεν μπορείτε να εγκαταστήσετε και το (e)Lilo και το Grub. Παρακαλώ επιλέξτε μόνο ένα."
+
+#~ msgid "Your two root password entries do not match. Please verify and correct."
+#~ msgstr "Οι κωδικοί διαχειριστή είναι διαφορετικοί. Παρακαλώ διορθώστε."
+
+#~ msgid "Your two user password entries do not match. Please verify and correct."
+#~ msgstr "Οι κωδικοί χρήστη είναι διαφορετικοί. Παρακαλώ διορθώστε."
+
+#~ msgid ""
+#~ "root password, user name and user password entries \n"
+#~ "cannot be emtpy.\n"
+#~ "root password and user password should have at least 5 characters\n"
+#~ "\n"
+#~ "Please verify and correct.\n"
+#~ msgstr ""
+#~ "Ο κωδικός διαχειριστή, το όνομα χρήστη και ο κωδικός χρήστη \n"
+#~ "δεν μπορεί να είναι κενά.\n"
+#~ "Ο κωδικός διαχειριστή και  ο κωδικός χρήστη πρέπει να είναι τουλάχιστον  5 χαρακτήρες\n"
+#~ "\n"
+#~ "Παρακαλώ διορθώστε τα.\n"
+
+#~ msgid "continent"
+#~ msgstr "Τοποθεσία"
+
+#~ msgid "location"
+#~ msgstr "Αντιγραφή σε"
+
+#~ msgid "Please double click on a row to select a default system locale."
+#~ msgstr "Παρακαλώ κάντε διπλό κλικ σε μια σειρά για να επιλέξετε τη γλώσσα συστήματος."
+
+#~ msgid "http://slackware-live.tuxfamily.org"
+#~ msgstr "http://slackware-live.tuxfamily.org"
+
+#~ msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
+#~ msgstr "CeCILL <http://www.cecill.info/licences.fr.html>"
+
+#~ msgid "keymap"
+#~ msgstr "keymap"
+
+#~ msgid "Sample"
+#~ msgstr "Δείγμα"
+
+#~ msgid "el_GR.utf8"
+#~ msgstr "el_GR.utf8"
+
+#~ msgid "Select a default system keyboard."
+#~ msgstr "Επιλέξτε ένα πληκτρολόγιο για το σύστημα."

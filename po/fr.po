@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Didier Spaier <didier@slint.fr>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: slackel-live-installer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-11 21:26+0200\n"
+"PO-Revision-Date: 2019-03-11 21:28+0200\n"
+"Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/djemos/slackel-live-"
+"installer/language/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#: src/multibootusb.ui:76
+msgid "vfat"
+msgstr "vfat"
+
+#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
+#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+msgid "Multiboot USB"
+msgstr ""
+
+#: src/multibootusb.ui:100
+msgid "_File"
+msgstr "_Fichier"
+
+#: src/multibootusb.ui:130
+msgid "_Help"
+msgstr "_Aide"
+
+#: src/multibootusb.ui:173
+msgid "Select directory with iso images:"
+msgstr ""
+
+#: src/multibootusb.ui:228
+msgid "Find usb"
+msgstr ""
+
+#: src/multibootusb.ui:299 src/multibootusb.ui:313
+msgid "Choose the filesystem type to format usb."
+msgstr "Choisir le type de système de fichier pour formater le support USB"
+
+#: src/multibootusb.ui:300
+msgid "Filesystem Type:"
+msgstr "Type de système de fichier :"
+
+#: src/multibootusb.ui:368
+msgid "USB Label name:"
+msgstr ""
+
+#: src/multibootusb.ui:418
+msgid "Select time zone..."
+msgstr ""
+
+#: src/multibootusb.ui:467 src/multibootusb.ui:1898
+msgid "Language"
+msgstr ""
+
+#: src/multibootusb.ui:494
+msgid "keyboard"
+msgstr ""
+
+#: src/multibootusb.ui:581
+msgid "Create multiboot iso usb"
+msgstr ""
+
+#: src/multibootusb.ui:673
+msgid "About"
+msgstr "À propos"
+
+#: src/multibootusb.ui:1360
+msgid "translator-credits"
+msgstr ""
+
+#: src/multibootusb.ui:1394
+msgid "Error encountered."
+msgstr "Une erreur s'est produite."
+
+#: src/multibootusb.ui:1440
+msgid "Installation completed."
+msgstr "Installation terminée."
+
+#: src/multibootusb.ui:1553
+msgid "Please choose a folder with iso images, not an iso file."
+msgstr ""
+
+#: src/multibootusb.ui:1668
+msgid "Please select your preferred keyboard type and map."
+msgstr ""
+
+#: src/multibootusb.ui:1705
+msgid "keyboard type"
+msgstr ""
+
+#: src/multibootusb.ui:1739
+msgid "keyboard map"
+msgstr ""
+
+#: src/multibootusb.ui:1864
+msgid "Please select a default system locale."
+msgstr ""
+
+#: src/multibootusb.ui:1910
+msgid "Locale"
+msgstr ""
+
+#: src/multibootusb.ui:1951
+msgid "Select time zone"
+msgstr ""
+
+#: src/multibootusb.ui:2017
+msgid "Please select your time zone:"
+msgstr ""
+
+#: src/multibootusb.ui:2053
+msgid "General area"
+msgstr ""
+
+#: src/multibootusb.ui:2086
+msgid "Location"
+msgstr ""
+
+#: src/multibootusb.desktop.in.h:1 src/multibootusb-kde.desktop.in.h:1
+msgid "Μultiboot USB"
+msgstr ""
+
+#~ msgid "ext3"
+#~ msgstr "ext3"
+
+#~ msgid "sli"
+#~ msgstr "sli"
+
+#~ msgid "Error: system is not live."
+#~ msgstr "Erreur: il ne s'agit pas d'un système vivant."
+
+#~ msgid "btrfs"
+#~ msgstr "btrfs"
+
+#~ msgid "ext2"
+#~ msgstr "ext2"
+
+#~ msgid "ext4"
+#~ msgstr "ext4"
+
+#~ msgid "jfs"
+#~ msgstr "jfs"
+
+#~ msgid "reiserfs"
+#~ msgstr "reiserfs"
+
+#~ msgid "xfs"
+#~ msgstr "xfs"
+
+#~ msgid "Partitions"
+#~ msgstr "Partitions"
+
+#~ msgid ""
+#~ "Important!\n"
+#~ "\n"
+#~ "Slackel needs, at the very minimum, one swap partition\n"
+#~ "and one Linux partition to hold its main directory tree.\n"
+#~ "\n"
+#~ "If you do not already have these needed partitions ready, \n"
+#~ "you should now click on the button 'Partitions'\n"
+#~ "in order to create them. Be aware that partitioning a disk\n"
+#~ "drive is a delicate operation which could lead to data loss\n"
+#~ "if not performed cautiously. It is therefore highly advisable\n"
+#~ "to backup important data before starting this procedure."
+#~ msgstr ""
+#~ "Important !\n"
+#~ "Slackel nécessite au strict minimum une partition d'échange\n"
+#~ "ou SWAP et une partition racine de type Linux.\n"
+#~ "\n"
+#~ "Si ces partitions ne sont pas prêtes, il faut maintenant\n"
+#~ "cliquer sur le bouton \"Partitions\" pour les créer.\n"
+#~ "Attention ! partitionner un disque dur ou SSD est une\n"
+#~ "opération délicate qui peut faire perdre des données\n"
+#~ "si elle n'est pas soigneusement effectuée.\n"
+#~ "Il est vivement recommandé de sauvegarder vos\n"
+#~ "données importantes avant de commencer."
+
+#~ msgid ""
+#~ "<i>Warning: copy / installation wipes everything on the selected location."
+#~ "</i>"
+#~ msgstr ""
+#~ "<i>Attention : copier / Installer efface tout à l'emplacement "
+#~ "sélectionné !.</i>"
+
+#~ msgid "Copy location:"
+#~ msgstr "Emplacement de la copie :"
+
+#~ msgid "click here if you want to copy system to usb"
+#~ msgstr "cliquer ici si vous voulez copier le système sur clef USB"
+
+#~ msgid "Install (e)LiLo"
+#~ msgstr "Installer (e)LiLo"
+
+#~ msgid "check this if you want to install (e)Lilo boot loader"
+#~ msgstr "Cocher ici si vous voulez installer l'amorceur (e)LiLo"
+
+#~ msgid "choose the Linux partition to hold the main directory tree."
+#~ msgstr "Choisir la partition racine."
+
+#~ msgid "Install Grub"
+#~ msgstr "Installer Grub."
+
+#~ msgid "check this if you want to install Grub boot loader"
+#~ msgstr "Cocher ici si vous voulez installer l'amorceur Grub."
+
+#~ msgid "Install location:"
+#~ msgstr "Emplacement d'installation :"
+
+#~ msgid "Choose the filesystem type to format partition(s)."
+#~ msgstr ""
+#~ "Choisir le type de système de fichier pour formater la ou les partitions :"
+
+#~ msgid "Home location:"
+#~ msgstr "Emplacement de la partition /home :"
+
+#~ msgid ""
+#~ "If you want to use a home partition to another disk then choose one from "
+#~ "here.\n"
+#~ "Otherwise leave it empty."
+#~ msgstr ""
+#~ "Pour utiliser une partition sur une autre disque pour /home choisissez en "
+#~ "une ici.\n"
+#~ "Sinon laissez ceci vide."
+
+#~ msgid "Format Ηome"
+#~ msgstr "Formater /home"
+
+#~ msgid "check this if you want to format /home partition"
+#~ msgstr "Cochez ceci si vous voulez formater une partition /home"
+
+#~ msgid "click here if you want to install system on hard disk"
+#~ msgstr "cliquez ici si vous voulez installer le système sur disque dur"
+
+#~ msgid "Install live system"
+#~ msgstr "Installer le système vivant"
+
+#~ msgid "Actions needed before proceeding with system installation.\n"
+#~ msgstr "Actions nécessaires avant d'installer le système.\n"
+
+#~ msgid ""
+#~ "Set root password, define login name, choose a password to be coupled "
+#~ "with your\n"
+#~ "login name."
+#~ msgstr ""
+#~ "Définir un mot de passe \"root\", définir un identifiant de connexion,\n"
+#~ "choisir un mot de passe associé à cet identifiant."
+
+#~ msgid "root password"
+#~ msgstr "mot de passe root"
+
+#~ msgid "user name"
+#~ msgstr "Nom d'utilisateur"
+
+#~ msgid "user password"
+#~ msgstr "mot de passe de l'utilisateur"
+
+#~ msgid ""
+#~ "Here you must define your login name which should only include\n"
+#~ "alphanumerical characters with no space or upper case letters. "
+#~ msgstr ""
+#~ "Définissez ici votre identifiant de connexion, contenant seulement\n"
+#~ "des caractères alphanumériques sans espace ni lettres capitales."
+
+#~ msgid ""
+#~ "Choose a password or passphrase to be coupled with your\n"
+#~ "login name. Your password or passprase should include a mix\n"
+#~ "of upper and lower case letters, numbers, and even symbols\n"
+#~ "(such as the @, !, and &)"
+#~ msgstr ""
+#~ "Choisissez un mot de ou une phrase de passe associée à\n"
+#~ "votre identifiant ce connexion, mélange de lettres capitales\n"
+#~ "ou non, de chiffres et même de symboles, comme @, !, ou &"
+
+#~ msgid ""
+#~ "On Linux systems, the superuser, or root, is a special user\n"
+#~ "account used for system administration. Here you must set\n"
+#~ "its password or passphrase. Remember, this password or\n"
+#~ "passphrase should include a mix of upper and lower case\n"
+#~ "letters, numbers, and even symbols (such as the @, !, and &)"
+#~ msgstr ""
+#~ "Le super utilisateur ou \"root\" d'un système Linux est\n"
+#~ "un identifiant utilisé pour l'administration du système.\n"
+#~ "Vous devez lui associer un mot ou phrase de passe,\n"
+#~ " mélange de lettres capitales ou non, de chiffres et\n"
+#~ "de symboles comme @, !, ou &."
+
+#~ msgid ""
+#~ "Here you must retype the superuser (root) password as a\n"
+#~ "confirmation of your choice."
+#~ msgstr ""
+#~ "Retapez ici le mot de passe de \"root\" pour confirmer\n"
+#~ "votre choix."
+
+#~ msgid ""
+#~ "Here you must retype your password as\n"
+#~ "a confirmation of your choice."
+#~ msgstr ""
+#~ "Retapez ici votre mot de passe pour confirmer\n"
+#~ "votre choix."
+
+#~ msgid "visible"
+#~ msgstr "visible"
+
+#~ msgid ""
+#~ "Check this box if you want to be able to see the password\n"
+#~ "you are typing."
+#~ msgstr ""
+#~ "Cochez cette boite si vous voulez voir le mot de passe\n"
+#~ "que vous tapez."
+
+#~ msgid "Choose installation mode"
+#~ msgstr "Choisir le mode d'installation"
+
+#~ msgid "core installation"
+#~ msgstr "installation de l'essentiel"
+
+#~ msgid ""
+#~ "Core installation:\n"
+#~ "Only the minimum essentials for a console system to start are \n"
+#~ "included. A graphical environment is not provided. This is ideal \n"
+#~ "if you are an experienced user and want to customize your \n"
+#~ "installation for any specific purpose, such as a web server.\n"
+#~ "file server etc. "
+#~ msgstr ""
+#~ "Installation de l'essentiel :\n"
+#~ "Seul le minimum nécessaire pour démarrer un`système en\n"
+#~ "ligne de commande est inclus. Pas d'environnement graphique.\n"
+#~ "Idéal pour les utilisateurs expérimentés voulant personnaliser\n"
+#~ "leur installation pour une usage spécifique comme un serveur\n"
+#~ "Internet ou un serveur de fichiers, par exemple."
+
+#~ msgid "basic installation"
+#~ msgstr "installation basique"
+
+#~ msgid ""
+#~ "Basic installation:\n"
+#~ "This installs only a basic desktop environment, with very few \n"
+#~ "extra applications installed on top, such as a web browser and\n"
+#~ "the gslapt package manager. Ideal for advanced users that \n"
+#~ "would like to install a lightweight system and add their own\n"
+#~ "choice of applications. "
+#~ msgstr ""
+#~ "Installation basique :\n"
+#~ "Installe seulement un environnement de bureau avec très peu\n"
+#~ "d'applications complémentaires, tel qu'un navigateur Internet\n"
+#~ "et le gestionnaire de paquets gslapt. Idéal pour des utilisateurs\n"
+#~ "avancés voulant un système léger auquel ajouter leur propre\n"
+#~ "choix d'applications."
+
+#~ msgid "full installation"
+#~ msgstr "installation complète"
+
+#~ msgid ""
+#~ "Full installation:\n"
+#~ "Everything that is included in the iso is installed. That includes \n"
+#~ "a complete desktop environment\n"
+#~ "and a complete selection of matching applications,\n"
+#~ "always following the \"one application per task\" rationale. "
+#~ msgstr ""
+#~ "Installation complète :\n"
+#~ "Tous les logiciels inclus dans l'image ISO sont installés.\n"
+#~ "Ceci inclut un environnement de bureau complet et une\n"
+#~ "sélection étendue d'applications associées, selon le\n"
+#~ "principe d'une application  par tâche."
+
+#~ msgid ""
+#~ "Cannot install Grub boot loader on an xfs filesystem. System will not "
+#~ "boot. \n"
+#~ "Choose (e)Lilo instead. Please verify and correct."
+#~ msgstr ""
+#~ "Impossible d'installer l'amorceur GRUB sur un système de fichiers XFS.\n"
+#~ "Choisissez (e)LiLo à la place. Merci de vérifier et corriger."
+
+#~ msgid ""
+#~ "Cannot install both (e)Lilo and Grub boot loaders. Please verify and "
+#~ "correct."
+#~ msgstr ""
+#~ "Impossible d'installer à la fois les amorceurs (e)LiLo et Grub. Merci de "
+#~ "vérifier et corriger."
+
+#~ msgid ""
+#~ "Your two root password entries do not match. Please verify and correct."
+#~ msgstr ""
+#~ "Vos deux frappes de mot de passe root diffèrent. Merci de de vérifier et "
+#~ "corriger."
+
+#~ msgid ""
+#~ "Your two user password entries do not match. Please verify and correct."
+#~ msgstr ""
+#~ "Vos deux frappes du mot de passe utilisateur diffèrent. Merci de de "
+#~ "vérifier et corriger."
+
+#~ msgid ""
+#~ "root password, user name and user password entries \n"
+#~ "cannot be emtpy.\n"
+#~ "root password and user password should have at least 5 characters\n"
+#~ "\n"
+#~ "Please verify and correct.\n"
+#~ msgstr ""
+#~ "le mot de passe root, l'identifiant de connexion et son mot\n"
+#~ "de passe ne doivent pas être vides.\n"
+#~ "les mots de passe doivent comporter au moins 5 caractères\n"
+#~ "\n"
+#~ "Merci de vérifier et de corriger.\n"
+#~ "\n"
+
+#~ msgid "http://slackware-live.tuxfamily.org"
+#~ msgstr "http://slackware-live.tuxfamily.org"
+
+#~ msgid "CeCILL <http://www.cecill.info/licences.fr.html>"
+#~ msgstr "CeCILL <http://www.cecill.info/licences.fr.html>"
