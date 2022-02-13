@@ -1,6 +1,6 @@
 # multibootusb
 Multiboot USB (GUI Tool to boot multi iso slackel/salix images).
-It is written in c and glage for Slackel / Slackel64 Linux.
+It is written in c and glade for Slackel / Slackel64 Linux.
 
 The SLKBUILD source package can be found on http://www.slackel.gr/repo/source/slackel-source/slackel-multibootusb-1.0/
  
