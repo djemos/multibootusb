@@ -457,8 +457,8 @@
                     </child>
                   </object>
                   <packing>
-                    <property name="expand">True</property>
-                    <property name="fill">True</property>
+                    <property name="expand">False</property>
+                    <property name="fill">False</property>
                     <property name="position">4</property>
                   </packing>
                 </child>
@@ -663,7 +663,7 @@
     <property name="skip_taskbar_hint">True</property>
     <property name="transient_for">mainwindow</property>
     <property name="program_name">Multiboot USB</property>
-    <property name="copyright">Copyright © 2019-2020  Dimitris Tzemos</property>
+    <property name="copyright">Copyright © 2019-2022 Dimitris Tzemos</property>
     <property name="license">         GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
