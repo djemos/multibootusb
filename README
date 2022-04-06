@@ -2,8 +2,26 @@
 Multiboot USB (GUI Tool to boot multi iso slackel/salix images).
 It is written in c and glade for Slackel / Slackel64 Linux.
 
+To download and create the package type:
+mkdir build 
+cd build 
+git clone https://github.com/djemos/multibootusb.git
+
+mv install-upgrade-kernel-ext-usb-gtk/SLKBUILD ./
+
+tar -cvjSf multibootusb.tar.bz2 multibootusb
+
+fakeroot slkbuild -X
+
+To install the package type:
+for 64bit:
+sudo spkg instonusb-1.0-x86_64-4dj.txz
+
+or for 32bit: 
+sudo spkg instonusb-1.0-i586-4dj.txz
+
 The SLKBUILD source package can be found on http://www.slackel.gr/repo/source/slackel-source/slackel-multibootusb-1.0/
- 
+
 Copyright (C) 2020 Dimitris Tzemos <dijemos@gmail.com>
 This program is free software: you can redistribute it and/or modify it under the terms 
 of the GNU General Public License as published by the Free Software Foundation, 
