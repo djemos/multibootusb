@@ -78,8 +78,8 @@
     </data>
   </object>
   <object class="GtkWindow" id="mainwindow">
-    <property name="width_request">576</property>
-    <property name="height_request">270</property>
+    <property name="width_request">580</property>
+    <property name="height_request">335</property>
     <property name="can_focus">False</property>
     <property name="title" translatable="yes">Multiboot USB</property>
     <property name="resizable">False</property>
@@ -428,6 +428,7 @@
                       <packing>
                         <property name="expand">False</property>
                         <property name="fill">True</property>
+                        <property name="padding">4</property>
                         <property name="position">0</property>
                       </packing>
                     </child>
@@ -477,6 +478,7 @@
                       <packing>
                         <property name="expand">False</property>
                         <property name="fill">True</property>
+                        <property name="padding">4</property>
                         <property name="position">0</property>
                       </packing>
                     </child>
@@ -531,20 +533,9 @@
                     </child>
                   </object>
                   <packing>
-                    <property name="expand">True</property>
-                    <property name="fill">True</property>
-                    <property name="position">5</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkHSeparator" id="hseparator1">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                  </object>
-                  <packing>
                     <property name="expand">False</property>
-                    <property name="fill">True</property>
-                    <property name="position">6</property>
+                    <property name="fill">False</property>
+                    <property name="position">5</property>
                   </packing>
                 </child>
                 <child>
@@ -571,8 +562,8 @@
                                 <property name="stock">gtk-save</property>
                               </object>
                               <packing>
-                                <property name="expand">True</property>
-                                <property name="fill">True</property>
+                                <property name="expand">False</property>
+                                <property name="fill">False</property>
                                 <property name="position">0</property>
                               </packing>
                             </child>
@@ -583,8 +574,8 @@
                                 <property name="label" translatable="yes">Create multiboot iso usb</property>
                               </object>
                               <packing>
-                                <property name="expand">True</property>
-                                <property name="fill">True</property>
+                                <property name="expand">False</property>
+                                <property name="fill">False</property>
                                 <property name="position">1</property>
                               </packing>
                             </child>
@@ -593,7 +584,7 @@
                       </object>
                       <packing>
                         <property name="expand">False</property>
-                        <property name="fill">True</property>
+                        <property name="fill">False</property>
                         <property name="padding">4</property>
                         <property name="position">0</property>
                       </packing>
@@ -613,7 +604,7 @@
                       </object>
                       <packing>
                         <property name="expand">False</property>
-                        <property name="fill">True</property>
+                        <property name="fill">False</property>
                         <property name="padding">4</property>
                         <property name="pack_type">end</property>
                         <property name="position">2</property>
@@ -626,18 +617,7 @@
                   <packing>
                     <property name="expand">False</property>
                     <property name="fill">False</property>
-                    <property name="position">7</property>
-                  </packing>
-                </child>
-                <child>
-                  <object class="GtkHSeparator" id="hseparator2">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                  </object>
-                  <packing>
-                    <property name="expand">False</property>
-                    <property name="fill">True</property>
-                    <property name="position">8</property>
+                    <property name="position">6</property>
                   </packing>
                 </child>
               </object>
@@ -649,8 +629,8 @@
             </child>
           </object>
           <packing>
-            <property name="expand">False</property>
-            <property name="fill">False</property>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
             <property name="position">1</property>
           </packing>
         </child>
@@ -661,9 +641,12 @@
           </object>
           <packing>
             <property name="expand">True</property>
-            <property name="fill">True</property>
+            <property name="fill">False</property>
             <property name="position">2</property>
           </packing>
+        </child>
+        <child>
+          <placeholder/>
         </child>
       </object>
     </child>
@@ -680,7 +663,7 @@
     <property name="skip_taskbar_hint">True</property>
     <property name="transient_for">mainwindow</property>
     <property name="program_name">Multiboot USB</property>
-    <property name="copyright">Copyright © 2019  Dimitris Tzemos</property>
+    <property name="copyright">Copyright © 2019-2020  Dimitris Tzemos</property>
     <property name="license">         GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
