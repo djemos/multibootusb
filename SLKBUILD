@@ -1,0 +1,23 @@
+#Packager: Dimitris Tzemos <dijemos@gmail.com>
+
+pkgname=multibootusb
+pkgver=1.0
+pkgrel=4dj
+source=("http://www.slackel.gr/repo/source/slackel-source/multibootusb-1.0/$pkgname-$pkgver.tar.bz2")
+url="http://slackel.gr"
+
+slackdesc=\
+(
+#|-----handy-ruler------------------------------------------------------|
+"Multiboot USB (Tool to boot multi iso images)"
+"It is  written for Slackel / Slackel64 Linux:"
+)
+
+build() {
+	cd $SRC/$pkgname-$pkgver
+	export LDFLAGS='-export-dynamic'
+	cmake -DCMAKE_INSTALL_PREFIX=/usr .
+		
+	make || return 1
+	make DESTDIR=$PKG install || return 1
+}
