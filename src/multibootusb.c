@@ -1,13 +1,10 @@
 /*
 multibootusb.c from Slackel <http://www.slackel.gr>
-Copyright (C) 2019 Dimitris Tzemos <dijemos@gmail.com>
+Copyright (C) 2022 Dimitris Tzemos <dijemos@gmail.com>
 
-This program is free software: you can redistribute it and/or modify it under the terms of 
-the GNU General Public License as published by the Free Software Foundation,
-either version 2 of the License, or (at your option) any later version.
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License at <http://www.gnu.org/licenses/> for more details.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License at <http://www.gnu.org/licenses/> for more details.
 */
 
 #include <gtk/gtk.h>
@@ -106,10 +103,14 @@ void settimezone(gchar *name, gchar *continent, gchar *location){
 	get_current_zone(current_zone);
 			if (symlink(name, "/etc/localtime-copied-from")!=0){
 				unlink("/etc/localtime-copied-from");
-				symlink(name, "/etc/localtime-copied-from");
+				symlink(name, "/etc/localtime");
+			 }
+			if (symlink(name, "/etc/localtime")!=0){
+				unlink("/etc/localtime");	
+				symlink(name, "/etc/localtime");
 				}
-			system("rm -f /etc/localtime");
-			system("cp /etc/localtime-copied-from /etc/localtime");
+			system("rm -f /etc/localtime-copied-from");
+			//system("cp /etc/localtime-copied-from /etc/localtime");
 }
 
 void system_locale(gchar *name)
