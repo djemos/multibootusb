@@ -15,10 +15,10 @@ fakeroot slkbuild -X
 
 To install the package type:
 for 64bit:
-sudo spkg instonusb-1.0-x86_64-4dj.txz
+sudo spkg multibootusb-1.0-x86_64-4dj.txz
 
 or for 32bit: 
-sudo spkg instonusb-1.0-i586-4dj.txz
+sudo spkg multibootusb-1.0-i586-4dj.txz
 
 The SLKBUILD source package can be found on http://www.slackel.gr/repo/source/slackel-source/slackel-multibootusb-1.0/
 
