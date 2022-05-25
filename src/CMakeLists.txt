@@ -2,7 +2,7 @@ include (FindPkgConfig)
 if (GTK3)
 pkg_check_modules (DEPLIBS REQUIRED gtk+-3.0)
 else (GTK3)
-pkg_check_modules (DEPLIBS REQUIRED gtk+-2.0)
+pkg_check_modules (DEPLIBS REQUIRED gtk+-3.0)
 endif (GTK3)
 
 set (LOCALE_DIR ${CMAKE_INSTALL_PREFIX}/share/locale)

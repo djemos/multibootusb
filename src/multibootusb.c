@@ -388,9 +388,9 @@ void on_copy_btn_clicked (GtkWidget *widget, gpointer user_data) {
 ////
 
 void on_timezonebutton_clicked(GtkWidget *widget, gpointer user_data) {
-	gchar *continents[17] = {"Africa", "America", "Antarctica", "Asia", 
+	gchar *continents[16] = {"Africa", "America", "Antarctica", "Asia", 
 			"Atlantic", "Australia", "Europe", "Indian", 
-			"Pacific", "US", "Mexico", "Chile", "Mideast",
+			"Pacific", "US", "Mexico", "Chile",
 			"Canada", "Brazil", "Arctic", "Etc"};
 	GtkWidget *timezonewindow;
 	GtkTreeView *listwidget,*locationlistwidget;
@@ -406,6 +406,9 @@ void on_timezonebutton_clicked(GtkWidget *widget, gpointer user_data) {
 	GtkTreePath *path;
 	GtkTreeModel *model;
 	GtkTreeViewColumn *column;
+	
+	//GtkTreePath *testpath;
+    //GtkTreeViewColumn *testcolumn;
 	//  
 	label = (GtkWidget *) gtk_builder_get_object(widgetstree, "zone");
 	timezonewindow = (GtkWidget *) gtk_builder_get_object(widgetstree, "timezonewindow");
@@ -419,7 +422,7 @@ void on_timezonebutton_clicked(GtkWidget *widget, gpointer user_data) {
 	locationliststore = (GtkListStore *) gtk_tree_view_get_model(locationlistwidget);
 	
 	gtk_list_store_clear(list) ;
-	for (i=0; i<17; i++) {
+	for (i=0; i<16; i++) {
 			gtk_list_store_append(list, &iter);
 			gtk_list_store_set(list, &iter, 0, continents[i], -1);
 		}
@@ -432,8 +435,12 @@ void on_timezonebutton_clicked(GtkWidget *widget, gpointer user_data) {
 		strcpy(current_zone[0],dummy[0]);
 		strcpy(current_zone[1],dummy[1]);
 	}
+	
+	sortable = GTK_TREE_SORTABLE(list);
+	gtk_tree_sortable_set_sort_column_id(sortable, 0, GTK_SORT_ASCENDING);
+	
 	valid = gtk_tree_model_get_iter_first (model, &iter);
-   
+      
        while (valid)
          {
            gchar *str_data0;
@@ -447,6 +454,8 @@ void on_timezonebutton_clicked(GtkWidget *widget, gpointer user_data) {
 				path = gtk_tree_model_get_path (model, &iter);
 				column=gtk_tree_view_get_column(listwidget , 0);
 				gtk_tree_view_set_cursor (listwidget , path, column, FALSE);
+				//gtk_tree_view_get_cursor(listwidget, &testpath, &testcolumn);
+				//printf("path=%s\n",gtk_tree_path_to_string(testpath));
 				if (row_count>5){
 				gtk_tree_view_scroll_to_cell(listwidget , path,  column, TRUE,0.5,0.5);
 				}
@@ -860,7 +869,7 @@ void on_continentlist_cursor_changed(GtkTreeView       *treeview,
 	GtkTreeView *listwidget;
 	GtkTreeView *continentlistwidget, *locationlistwidget;
 	GtkListStore *continentliststore, *locationliststore;
-	gchar *continentlist,current_zone[2][30];
+	gchar *continentlist,current_zone[2][30],**dummy;
 	gchar **lines, *output,*locale,*location;
 	gint i;
 	gint status;
@@ -876,14 +885,18 @@ void on_continentlist_cursor_changed(GtkTreeView       *treeview,
 	locationliststore = GTK_LIST_STORE(model);
 	GtkTreeSelection *selection;
 	selection = gtk_tree_view_get_selection(treeview);
-  
+	GtkWidget *label;
+    //GtkTreePath *testpath;
+    //GtkTreeViewColumn *testcolumn;
+    
    if (gtk_tree_selection_get_selected(GTK_TREE_SELECTION(selection), &model, &iter)) {
 		gtk_tree_model_get (model, &iter, 0, &location, -1);
 		create_locationlist("sli_location_list_detection.sh", location);
 		scrolledwindow4 = (GtkWidget *) gtk_builder_get_object(widgetstree, "scrolledwindow4");    
 		locationlistwidget = (GtkTreeView *) gtk_builder_get_object(widgetstree, "locationlist");
 		locationliststore = (GtkListStore *) gtk_tree_view_get_model(locationlistwidget);
-	
+		model = gtk_tree_view_get_model(locationlistwidget); 
+	    
 		/*sortable = GTK_TREE_SORTABLE(keymapliststore);
 		gtk_tree_sortable_set_sort_column_id(sortable, 0, GTK_SORT_ASCENDING);*/
 	
@@ -900,20 +913,34 @@ void on_continentlist_cursor_changed(GtkTreeView       *treeview,
 			g_strfreev(lines);
 		}
 		g_free(output);
-		//system("rm sli_location_list_detection.sh");
-		//system("rm locationlist");  
+		system("rm sli_location_list_detection.sh");
+		system("rm locationlist");  
 	}
 	 
 	 //location focus
 	
-		model = gtk_tree_view_get_model(locationlistwidget); 
+		//model = gtk_tree_view_get_model(locationlistwidget); 
       
-		get_current_zone(current_zone);
+		//get_current_zone(current_zone);
+		label = (GtkWidget *) gtk_builder_get_object(widgetstree, "zone");
+		
+		if (strlen(gtk_label_get_text(GTK_LABEL(label)))==0){
+			get_current_zone(current_zone);
+			}
+		else { 
+			dummy=g_strsplit(gtk_label_get_text(GTK_LABEL(label)), "/", 0);
+			strcpy(current_zone[0],dummy[0]);
+			strcpy(current_zone[1],dummy[1]);
+			}
+		
 		valid = gtk_tree_model_get_iter_first (model, &iter);
-	    
-		path = gtk_tree_model_get_path (model, &iter);
-		column=gtk_tree_view_get_column(locationlistwidget , 0);
-		gtk_tree_view_set_cursor (locationlistwidget , path, column, FALSE);
+		
+		if (valid){
+				 path = gtk_tree_model_get_path (model, &iter);
+				column=gtk_tree_view_get_column(locationlistwidget , 0);
+				gtk_tree_view_set_cursor (locationlistwidget , path, column, FALSE);
+			}
+			
 		while (valid)
          {
 			gchar *klocation;
@@ -1088,6 +1115,10 @@ void init_locale_list()
 	g_free(output);
 	if (g_file_test("locale_file", G_FILE_TEST_EXISTS)) {
 		system("rm locale_file");}
+	if (g_file_test("get_system_locale.sh", G_FILE_TEST_EXISTS)) {
+		system("rm get_system_locale.sh");}
+	if (g_file_test("system_locale", G_FILE_TEST_EXISTS)) {
+		system("rm system_locale");}
 }
 
 void on_process_end (GPid thepid, gint status, gpointer data) {
@@ -1141,7 +1172,9 @@ void on_isofile_ok_button_clicked(GtkWidget *widget, gpointer user_data){
 	filename = gtk_file_chooser_get_filename (GTK_FILE_CHOOSER (isofilechooserdialog));
 	//	gtk_file_chooser_get_current_folder
 	isoname = (GtkWidget *) gtk_builder_get_object(widgetstree, "isoname");
-	gtk_entry_set_text (GTK_ENTRY(isoname),filename);
+	if (filename != NULL) {
+		gtk_entry_set_text (GTK_ENTRY(isoname),filename);
+	}
 }
 
 void on_usbbutton_clicked (GtkWidget *widget, gpointer user_data) {

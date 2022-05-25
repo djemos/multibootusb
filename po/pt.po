@@ -1,453 +1,158 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Dimitris Tzemos <dijemos@gmail.com>, 2019
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: slackel-live-installer\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 21:26+0200\n"
-"PO-Revision-Date: 2019-03-07 02:31+0200\n"
+"POT-Creation-Date: 2022-04-29 15:07+0300\n"
+"PO-Revision-Date: 2022-04-28 09:06+0300\n"
 "Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/djemos/slackel-live-"
-"installer/language/pt/)\n"
+"Language-Team: Portuguese (https://www.transifex.com/djemos/teams/52039/"
+"pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 3.0.1\n"
 
-#: src/multibootusb.ui:76
+#: src/multibootusb.ui:141
 msgid "vfat"
 msgstr "vfat"
 
-#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
-#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+#: src/multibootusb.ui:149 src/multibootusb.ui:1566 src/multibootusb.ui:1608
+#: src/multibootusb.ui:1649 src/multibootusb.ui:1719
 msgid "Multiboot USB"
-msgstr ""
+msgstr "USB Multiboot"
 
-#: src/multibootusb.ui:100
+#: src/multibootusb.ui:168
 msgid "_File"
 msgstr "_Ficheiro"
 
-#: src/multibootusb.ui:130
+#: src/multibootusb.ui:182
+msgid "Quit"
+msgstr "Desistir"
+
+#: src/multibootusb.ui:198
 msgid "_Help"
 msgstr "_Ajuda"
 
-#: src/multibootusb.ui:173
-msgid "Select directory with iso images:"
-msgstr ""
-
-#: src/multibootusb.ui:228
-msgid "Find usb"
-msgstr ""
-
-#: src/multibootusb.ui:299 src/multibootusb.ui:313
-msgid "Choose the filesystem type to format usb."
-msgstr "Escolha o tipo de sistema de ficheiros para formatar o usb."
-
-#: src/multibootusb.ui:300
-msgid "Filesystem Type:"
-msgstr "Tipo de Sistema de ficheiros:"
-
-#: src/multibootusb.ui:368
-msgid "USB Label name:"
-msgstr ""
-
-#: src/multibootusb.ui:418
-#, fuzzy
-msgid "Select time zone..."
-msgstr "Selecione a localização predefinida do sistema."
-
-#: src/multibootusb.ui:467 src/multibootusb.ui:1898
-msgid "Language"
-msgstr "Idioma"
-
-#: src/multibootusb.ui:494
-msgid "keyboard"
-msgstr "Teclado"
-
-#: src/multibootusb.ui:581
-msgid "Create multiboot iso usb"
-msgstr ""
-
-#: src/multibootusb.ui:673
+#: src/multibootusb.ui:206 src/multibootusb.ui:853
 msgid "About"
 msgstr "Acerca"
 
-#: src/multibootusb.ui:1360
-msgid "translator-credits"
-msgstr "Hugo Carvalho"
+#: src/multibootusb.ui:254
+msgid "Select directory with iso images:"
+msgstr "Selecione o diretório com imagens iso:"
 
-#: src/multibootusb.ui:1394
+#: src/multibootusb.ui:279
+msgid "Find"
+msgstr "Encontrar"
+
+#: src/multibootusb.ui:330
+msgid "Find usb"
+msgstr "Encontrar usb"
+
+#: src/multibootusb.ui:404 src/multibootusb.ui:418
+msgid "Choose the filesystem type to format usb."
+msgstr "Escolha o tipo de sistema de ficheiros para formatar o usb."
+
+#: src/multibootusb.ui:405
+msgid "Filesystem Type:"
+msgstr "Tipo de Sistema de ficheiros:"
+
+#: src/multibootusb.ui:474
+msgid "USB Label name:"
+msgstr "Nome do USB:"
+
+#: src/multibootusb.ui:537
+msgid "Select time zone..."
+msgstr "Selecione o fuso horário..."
+
+#: src/multibootusb.ui:600 src/multibootusb.ui:2079
+msgid "Language"
+msgstr "Idioma"
+
+#: src/multibootusb.ui:638
+msgid "keyboard"
+msgstr "teclado"
+
+#: src/multibootusb.ui:728
+msgid "Create multiboot iso usb"
+msgstr "Criar usb iso multiboot"
+
+#: src/multibootusb.ui:748
+msgid "Stop"
+msgstr ""
+
+#: src/multibootusb.ui:1540
+msgid "translator-credits"
+msgstr "Hugo Carvalho <hugokarvalho@gmail.com>"
+
+#: src/multibootusb.ui:1576
 msgid "Error encountered."
 msgstr "Erro encontrado."
 
-#: src/multibootusb.ui:1440
+#: src/multibootusb.ui:1617
 msgid "Installation completed."
-msgstr "Instalação Concluída."
+msgstr "Instalação concluída."
 
-#: src/multibootusb.ui:1553
+#: src/multibootusb.ui:1672 src/multibootusb.ui:1782 src/multibootusb.ui:1983
+#: src/multibootusb.ui:2157
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/multibootusb.ui:1686 src/multibootusb.ui:1797 src/multibootusb.ui:1998
+#: src/multibootusb.ui:2172
+msgid "OK"
+msgstr "OK"
+
+#: src/multibootusb.ui:1729
 msgid "Please choose a folder with iso images, not an iso file."
-msgstr ""
+msgstr "Por favor, escolha uma pasta com imagens iso, não um ficheiro iso."
 
-#: src/multibootusb.ui:1668
+#: src/multibootusb.ui:1844
 msgid "Please select your preferred keyboard type and map."
-msgstr "Por favor, selecione o seu tipo de teclado e mapa preferido."
+msgstr "Por favor, selecione seu tipo e mapa de teclado preferido."
 
-#: src/multibootusb.ui:1705
+#: src/multibootusb.ui:1882
 msgid "keyboard type"
 msgstr "tipo de teclado"
 
-#: src/multibootusb.ui:1739
+#: src/multibootusb.ui:1917
 msgid "keyboard map"
-msgstr "mapa de teclado"
+msgstr "mapa do teclado"
 
-#: src/multibootusb.ui:1864
+#: src/multibootusb.ui:2046
 msgid "Please select a default system locale."
-msgstr "Selecione a localização predefinida do sistema."
+msgstr "Por favor, selecione uma localização do sistema predefinida."
 
-#: src/multibootusb.ui:1910
+#: src/multibootusb.ui:2091
 msgid "Locale"
 msgstr "Localização"
 
-#: src/multibootusb.ui:1951
-#, fuzzy
+#: src/multibootusb.ui:2133
 msgid "Select time zone"
-msgstr "Selecione a localização predefinida do sistema."
+msgstr "Selecione o fuso horário"
 
-#: src/multibootusb.ui:2017
-#, fuzzy
+#: src/multibootusb.ui:2200
 msgid "Please select your time zone:"
-msgstr "Selecione a localização predefinida do sistema."
+msgstr "Por favor, selecione seu fuso horário:"
 
-#: src/multibootusb.ui:2053
+#: src/multibootusb.ui:2238
 msgid "General area"
-msgstr ""
+msgstr "Área geral"
 
-#: src/multibootusb.ui:2086
-#, fuzzy
+#: src/multibootusb.ui:2273
 msgid "Location"
-msgstr "Local a copiar:"
+msgstr "Localização"
 
 #: src/multibootusb.desktop.in.h:1 src/multibootusb-kde.desktop.in.h:1
 msgid "Μultiboot USB"
-msgstr ""
-
-#~ msgid "ext3"
-#~ msgstr "ext3"
-
-#~ msgid "sli"
-#~ msgstr "sli"
-
-#~ msgid "Error: system is not live."
-#~ msgstr "Erro: o sistema não é live."
-
-#~ msgid "azerty"
-#~ msgstr "azerty"
-
-#~ msgid "dvorak"
-#~ msgstr "dvorak"
-
-#~ msgid "olpc"
-#~ msgstr "olpc"
-
-#~ msgid "qwerty"
-#~ msgstr "qwerty"
-
-#~ msgid "qwertz"
-#~ msgstr "qwertz"
-
-#~ msgid "btrfs"
-#~ msgstr "btrfs"
-
-#~ msgid "ext2"
-#~ msgstr "ext2"
-
-#~ msgid "ext4"
-#~ msgstr "ext4"
-
-#~ msgid "jfs"
-#~ msgstr "jfs"
-
-#~ msgid "reiserfs"
-#~ msgstr "reiserfs"
-
-#~ msgid "xfs"
-#~ msgstr "xfs"
-
-#~ msgid "Partitions"
-#~ msgstr "Partições"
-
-#~ msgid ""
-#~ "Important!\n"
-#~ "\n"
-#~ "Slackel needs, at the very minimum, one swap partition\n"
-#~ "and one Linux partition to hold its main directory tree.\n"
-#~ "\n"
-#~ "If you do not already have these needed partitions ready, \n"
-#~ "you should now click on the button 'Partitions'\n"
-#~ "in order to create them. Be aware that partitioning a disk\n"
-#~ "drive is a delicate operation which could lead to data loss\n"
-#~ "if not performed cautiously. It is therefore highly advisable\n"
-#~ "to backup important data before starting this procedure."
-#~ msgstr ""
-#~ "Importante!\n"
-#~ "\n"
-#~ "O Slackel precisa, no mínimo, de uma partição swap\n"
-#~ "e uma partição Linux para manter sua árvore de diretórios principal.\n"
-#~ "\n"
-#~ "Se ainda não tem essas partições necessárias,\n"
-#~ "deve clicar agora no botão 'Partições'\n"
-#~ "para criá-las. Esteja ciente de que particionar uma unidade\n"
-#~ "de disco é uma operação delicada que pode levar à perda de dados\n"
-#~ "se não for realizada com cautela. Portanto, é altamente recomendável\n"
-#~ "fazer uma cópia de segurança de dados importantes antes de iniciar este "
-#~ "procedimento."
-
-#~ msgid ""
-#~ "<i>Warning: copy / installation wipes everything on the selected location."
-#~ "</i>"
-#~ msgstr ""
-#~ "<i>Aviso: a cópia / instalação elimina tudo no local selecionado.</i>"
-
-#~ msgid "Copy location:"
-#~ msgstr "Local a copiar:"
-
-#~ msgid "click here if you want to copy system to usb"
-#~ msgstr "clique aqui se quiser copiar o sistema para usb"
-
-#~ msgid "Install (e)LiLo"
-#~ msgstr "Instalar o (e)LiLo"
-
-#~ msgid "check this if you want to install (e)Lilo boot loader"
-#~ msgstr "marque aqui se deseja instalar o carregador de arranque (e)Lilo"
-
-#~ msgid "choose the Linux partition to hold the main directory tree."
-#~ msgstr ""
-#~ "escolha a partição Linux para manter a árvore de diretórios principal."
-
-#~ msgid "Install Grub"
-#~ msgstr "Instalar o Grub"
-
-#~ msgid "check this if you want to install Grub boot loader"
-#~ msgstr "marque aqui se quiser instalar o carregador de arranque Grub"
-
-#~ msgid "Install location:"
-#~ msgstr "Local a instalar:"
-
-#~ msgid "Choose the filesystem type to format partition(s)."
-#~ msgstr ""
-#~ "Escolha o tipo de sistema de ficheiros para formatar a partição(ções)."
-
-#~ msgid "Home location:"
-#~ msgstr "Localização da Home:"
-
-#~ msgid ""
-#~ "If you want to use a home partition to another disk then choose one from "
-#~ "here.\n"
-#~ "Otherwise leave it empty."
-#~ msgstr ""
-#~ "Se quiser usar uma partição home noutro disco, escolha uma daqui.\n"
-#~ "Caso contrário, deixe em branco."
-
-#~ msgid "Format Ηome"
-#~ msgstr "Formatar a Home"
-
-#~ msgid "check this if you want to format /home partition"
-#~ msgstr "marque aqui se deseja formatar a partição /home"
-
-#~ msgid "click here if you want to install system on hard disk"
-#~ msgstr "clique aqui se quiser instalar o sistema no disco rígido"
-
-#~ msgid "Install live system"
-#~ msgstr "Instalar o sistema live"
-
-#~ msgid "Actions needed before proceeding with system installation.\n"
-#~ msgstr ""
-#~ "Ações necessárias antes de prosseguir com a instalação do sistema.\n"
-
-#~ msgid "Select a default system locale."
-#~ msgstr "Selecione a localização predefinida do sistema."
-
-#~ msgid "Select your preferred keyboard type."
-#~ msgstr "Selecione o seu tipo de teclado preferido."
-
-#~ msgid ""
-#~ "Set root password, define login name, choose a password to be coupled "
-#~ "with your\n"
-#~ "login name."
-#~ msgstr ""
-#~ "Defina a palavra-passe do root, defina o nome de início de sessão, "
-#~ "escolha uma palavra-passe para ser acoplada ao seu\n"
-#~ "nome de início de sessão."
-
-#~ msgid "root password"
-#~ msgstr "palavra-passe do root"
-
-#~ msgid "user name"
-#~ msgstr "nome do utilizador"
-
-#~ msgid "user password"
-#~ msgstr "palavra-passe do utilizador"
-
-#~ msgid ""
-#~ "Here you must define your login name which should only include\n"
-#~ "alphanumerical characters with no space or upper case letters. "
-#~ msgstr ""
-#~ "Aqui deve definir seu nome de início de sessão, que deve incluir apenas\n"
-#~ "caracteres alfanuméricos sem espaço ou letras maiúsculas. "
-
-#~ msgid ""
-#~ "Choose a password or passphrase to be coupled with your\n"
-#~ "login name. Your password or passprase should include a mix\n"
-#~ "of upper and lower case letters, numbers, and even symbols\n"
-#~ "(such as the @, !, and &)"
-#~ msgstr ""
-#~ "Escolha uma palavra-passe ou frase secreta para ser acoplada ao seu\n"
-#~ "nome de início de sessão. Sua palavra-passe ou frase secreta deve incluir "
-#~ "uma mistura\n"
-#~ "de letras maiúsculas e minúsculas, números e até símbolos\n"
-#~ "(tais como o @, ! e &)"
-
-#~ msgid ""
-#~ "On Linux systems, the superuser, or root, is a special user\n"
-#~ "account used for system administration. Here you must set\n"
-#~ "its password or passphrase. Remember, this password or\n"
-#~ "passphrase should include a mix of upper and lower case\n"
-#~ "letters, numbers, and even symbols (such as the @, !, and &)"
-#~ msgstr ""
-#~ "Nos sistemas Linux, o administrador, ou root, é um utilizador especial\n"
-#~ "conta usada para administração do sistema. Aqui você deve definir\n"
-#~ "sua palavra-passe ou frase secreta. Lembre-se, esta palavra-passe ou\n"
-#~ "a frase secreta deve incluir uma mistura de letras maiúsculas e "
-#~ "minúsculas\n"
-#~ "letras, números e até símbolos (tais como o @, ! e &)"
-
-#~ msgid ""
-#~ "Here you must retype the superuser (root) password as a\n"
-#~ "confirmation of your choice."
-#~ msgstr ""
-#~ "Aqui você deve escrever novamente a palavra-passe do administrador (root) "
-#~ "como\n"
-#~ "confirmação da sua escolha."
-
-#~ msgid ""
-#~ "Here you must retype your password as\n"
-#~ "a confirmation of your choice."
-#~ msgstr ""
-#~ "Aqui você deve escrever novamente a sua palavra-passe como\n"
-#~ "uma confirmação da sua escolha."
-
-#~ msgid "visible"
-#~ msgstr "visível"
-
-#~ msgid ""
-#~ "Check this box if you want to be able to see the password\n"
-#~ "you are typing."
-#~ msgstr ""
-#~ "Marque esta caixa se quiser ver a palavra-passe\n"
-#~ "que está a escrever."
-
-#~ msgid "Choose installation mode"
-#~ msgstr "Escolha o modo de instalação"
-
-#~ msgid "core installation"
-#~ msgstr "instalação de núcleo"
-
-#~ msgid ""
-#~ "Core installation:\n"
-#~ "Only the minimum essentials for a console system to start are \n"
-#~ "included. A graphical environment is not provided. This is ideal \n"
-#~ "if you are an experienced user and want to customize your \n"
-#~ "installation for any specific purpose, such as a web server.\n"
-#~ "file server etc. "
-#~ msgstr ""
-#~ "Instalação de núcleo:\n"
-#~ "Somente os itens essenciais mínimos para iniciar um sistema de terminal "
-#~ "são\n"
-#~ "incluídos. Um ambiente gráfico não é fornecido. Isso é ideal\n"
-#~ "se você é um utilizador experiente e quer personalizar a sua\n"
-#~ "instalação para qualquer finalidade específica, como um servidor da Web.\n"
-#~ "servidor de ficheiros etc. "
-
-#~ msgid "basic installation"
-#~ msgstr "instalação básica"
-
-#~ msgid ""
-#~ "Basic installation:\n"
-#~ "This installs only a basic desktop environment, with very few \n"
-#~ "extra applications installed on top, such as a web browser and\n"
-#~ "the gslapt package manager. Ideal for advanced users that \n"
-#~ "would like to install a lightweight system and add their own\n"
-#~ "choice of applications. "
-#~ msgstr ""
-#~ "Instalação básica:\n"
-#~ "Isto instala apenas um ambiente de trabalho básico, com muito poucas\n"
-#~ "aplicações extras instaladas por dentro, como um navegador da Web e\n"
-#~ "o gestor de pacotes gslapt. Ideal para utilizadores avançados que\n"
-#~ "gostariam de instalar um sistema leve e adicionar as suas próprias\n"
-#~ "escolhas de aplicações. "
-
-#~ msgid "full installation"
-#~ msgstr "instalação completa"
-
-#~ msgid ""
-#~ "Full installation:\n"
-#~ "Everything that is included in the iso is installed. That includes \n"
-#~ "a complete desktop environment\n"
-#~ "and a complete selection of matching applications,\n"
-#~ "always following the \"one application per task\" rationale. "
-#~ msgstr ""
-#~ "Instalação completa:\n"
-#~ "Tudo o que está incluído na iso é instalado. Isso inclui\n"
-#~ "um ambiente de trabalho completo\n"
-#~ "e uma seleção completa de aplicações correspondentes\n"
-#~ "sempre seguindo o raciocínio \"uma aplicação por tarefa\". "
-
-#~ msgid ""
-#~ "Cannot install Grub boot loader on an xfs filesystem. System will not "
-#~ "boot. \n"
-#~ "Choose (e)Lilo instead. Please verify and correct."
-#~ msgstr ""
-#~ "Não é possível instalar o carregador de arranque Grub num sistema de "
-#~ "ficheiros xfs. O sistema não arranca.\n"
-#~ "Escolha o (e)Lilo em seu lugar. Por favor, verifique e corrija."
-
-#~ msgid ""
-#~ "Cannot install both (e)Lilo and Grub boot loaders. Please verify and "
-#~ "correct."
-#~ msgstr ""
-#~ "Não é possível instalar os carregadores de arranque (e)Lilo e Grub. Por "
-#~ "favor, verifique e corrija."
-
-#~ msgid ""
-#~ "Your two root password entries do not match. Please verify and correct."
-#~ msgstr ""
-#~ "As suas palavras-passe de root não correspondem. Por favor, verifique e "
-#~ "corrija."
-
-#~ msgid ""
-#~ "Your two user password entries do not match. Please verify and correct."
-#~ msgstr ""
-#~ "As suas palavras-passe de utilizador não correspondem. Por favor, "
-#~ "verifique e corrija."
-
-#~ msgid ""
-#~ "root password, user name and user password entries \n"
-#~ "cannot be emtpy.\n"
-#~ "root password and user password should have at least 5 characters\n"
-#~ "\n"
-#~ "Please verify and correct.\n"
-#~ msgstr ""
-#~ "palavras-passe de root, nome de utilizador e palavras-passe do "
-#~ "utilizador\n"
-#~ "não podem estar vazios.\n"
-#~ "palavra-passe de root e palavra-passe de utilizador devem ter pelo menos "
-#~ "5 caracteres\n"
-#~ "\n"
-#~ "Por favor, verifique e corrija.\n"
+msgstr "USB Multiboot"

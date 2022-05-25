@@ -1,18 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
 # Serg Bormant <bormant@mail.ru>, 2019
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: slackel-live-installer\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 21:26+0200\n"
-"PO-Revision-Date: 2019-03-07 02:32+0200\n"
+"POT-Creation-Date: 2022-04-29 15:07+0300\n"
+"PO-Revision-Date: 2020-10-05 20:03+0300\n"
 "Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/djemos/slackel-live-"
-"installer/language/ru/)\n"
+"Language-Team: Russian (https://www.transifex.com/djemos/teams/52039/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,413 +21,140 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.4.1\n"
 
-#: src/multibootusb.ui:76
+#: src/multibootusb.ui:141
 msgid "vfat"
 msgstr "vfat"
 
-#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
-#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+#: src/multibootusb.ui:149 src/multibootusb.ui:1566 src/multibootusb.ui:1608
+#: src/multibootusb.ui:1649 src/multibootusb.ui:1719
 msgid "Multiboot USB"
-msgstr ""
+msgstr "Мультизагрузочный USB"
 
-#: src/multibootusb.ui:100
+#: src/multibootusb.ui:168
 msgid "_File"
 msgstr "_Файл"
 
-#: src/multibootusb.ui:130
+#: src/multibootusb.ui:182
+msgid "Quit"
+msgstr ""
+
+#: src/multibootusb.ui:198
 msgid "_Help"
 msgstr "_Справка"
 
-#: src/multibootusb.ui:173
-msgid "Select directory with iso images:"
-msgstr ""
-
-#: src/multibootusb.ui:228
-msgid "Find usb"
-msgstr ""
-
-#: src/multibootusb.ui:299 src/multibootusb.ui:313
-msgid "Choose the filesystem type to format usb."
-msgstr "Файловая система для форматирования USB."
-
-#: src/multibootusb.ui:300
-msgid "Filesystem Type:"
-msgstr "Файловая система:"
-
-#: src/multibootusb.ui:368
-msgid "USB Label name:"
-msgstr ""
-
-#: src/multibootusb.ui:418
-#, fuzzy
-msgid "Select time zone..."
-msgstr "Выберите системную локаль по умолчанию."
-
-#: src/multibootusb.ui:467 src/multibootusb.ui:1898
-msgid "Language"
-msgstr "Язык"
-
-#: src/multibootusb.ui:494
-msgid "keyboard"
-msgstr "Клавиатура"
-
-#: src/multibootusb.ui:581
-msgid "Create multiboot iso usb"
-msgstr ""
-
-#: src/multibootusb.ui:673
+#: src/multibootusb.ui:206 src/multibootusb.ui:853
 msgid "About"
 msgstr "О программе"
 
-#: src/multibootusb.ui:1360
+#: src/multibootusb.ui:254
+msgid "Select directory with iso images:"
+msgstr "Каталог с файлами ISO:"
+
+#: src/multibootusb.ui:279
+#, fuzzy
+msgid "Find"
+msgstr "Найти USB"
+
+#: src/multibootusb.ui:330
+msgid "Find usb"
+msgstr "Найти USB"
+
+#: src/multibootusb.ui:404 src/multibootusb.ui:418
+msgid "Choose the filesystem type to format usb."
+msgstr "Файловая система для форматирования USB."
+
+#: src/multibootusb.ui:405
+msgid "Filesystem Type:"
+msgstr "Файловая система:"
+
+#: src/multibootusb.ui:474
+msgid "USB Label name:"
+msgstr "Метка USB:"
+
+#: src/multibootusb.ui:537
+msgid "Select time zone..."
+msgstr "Выбор временной зоны..."
+
+#: src/multibootusb.ui:600 src/multibootusb.ui:2079
+msgid "Language"
+msgstr "Язык"
+
+#: src/multibootusb.ui:638
+msgid "keyboard"
+msgstr "клавиатура"
+
+#: src/multibootusb.ui:728
+msgid "Create multiboot iso usb"
+msgstr "Создать USB мультизагрузки ISO"
+
+#: src/multibootusb.ui:748
+msgid "Stop"
+msgstr ""
+
+#: src/multibootusb.ui:1540
 msgid "translator-credits"
 msgstr "Serg Bormant"
 
-#: src/multibootusb.ui:1394
+#: src/multibootusb.ui:1576
 msgid "Error encountered."
 msgstr "Обнаружена ошибка."
 
-#: src/multibootusb.ui:1440
+#: src/multibootusb.ui:1617
 msgid "Installation completed."
 msgstr "Установка завершена."
 
-#: src/multibootusb.ui:1553
-msgid "Please choose a folder with iso images, not an iso file."
+#: src/multibootusb.ui:1672 src/multibootusb.ui:1782 src/multibootusb.ui:1983
+#: src/multibootusb.ui:2157
+msgid "Cancel"
 msgstr ""
 
-#: src/multibootusb.ui:1668
+#: src/multibootusb.ui:1686 src/multibootusb.ui:1797 src/multibootusb.ui:1998
+#: src/multibootusb.ui:2172
+msgid "OK"
+msgstr ""
+
+#: src/multibootusb.ui:1729
+msgid "Please choose a folder with iso images, not an iso file."
+msgstr "Выберите каталог с образами ISO, а не файл ISO."
+
+#: src/multibootusb.ui:1844
 msgid "Please select your preferred keyboard type and map."
 msgstr "Выберите тип и раскладку клавиатуры."
 
-#: src/multibootusb.ui:1705
+#: src/multibootusb.ui:1882
 msgid "keyboard type"
 msgstr "тип клавиатуры"
 
-#: src/multibootusb.ui:1739
+#: src/multibootusb.ui:1917
 msgid "keyboard map"
 msgstr "раскладка клавиатуры"
 
-#: src/multibootusb.ui:1864
+#: src/multibootusb.ui:2046
 msgid "Please select a default system locale."
 msgstr "Выберите системную локаль по умолчанию."
 
-#: src/multibootusb.ui:1910
+#: src/multibootusb.ui:2091
 msgid "Locale"
 msgstr "Локаль"
 
-#: src/multibootusb.ui:1951
-#, fuzzy
+#: src/multibootusb.ui:2133
 msgid "Select time zone"
-msgstr "Выберите системную локаль по умолчанию."
+msgstr "Временная зона"
 
-#: src/multibootusb.ui:2017
-#, fuzzy
+#: src/multibootusb.ui:2200
 msgid "Please select your time zone:"
-msgstr "Выберите системную локаль по умолчанию."
+msgstr "Выберите временную зону:"
 
-#: src/multibootusb.ui:2053
+#: src/multibootusb.ui:2238
 msgid "General area"
-msgstr ""
+msgstr "Общая область"
 
-#: src/multibootusb.ui:2086
-#, fuzzy
+#: src/multibootusb.ui:2273
 msgid "Location"
-msgstr "Копировать в:"
+msgstr "Местоположение"
 
 #: src/multibootusb.desktop.in.h:1 src/multibootusb-kde.desktop.in.h:1
 msgid "Μultiboot USB"
-msgstr ""
-
-#~ msgid "ext3"
-#~ msgstr "ext3"
-
-#~ msgid "sli"
-#~ msgstr "sli"
-
-#~ msgid "Error: system is not live."
-#~ msgstr "Ошибка: система не 'живая'."
-
-#~ msgid "azerty"
-#~ msgstr "azerty"
-
-#~ msgid "dvorak"
-#~ msgstr "Дворак"
-
-#~ msgid "olpc"
-#~ msgstr "olpc"
-
-#~ msgid "qwerty"
-#~ msgstr "qwerty"
-
-#~ msgid "qwertz"
-#~ msgstr "qwertz"
-
-#~ msgid "btrfs"
-#~ msgstr "btrfs"
-
-#~ msgid "ext2"
-#~ msgstr "ext2"
-
-#~ msgid "ext4"
-#~ msgstr "ext4"
-
-#~ msgid "jfs"
-#~ msgstr "jfs"
-
-#~ msgid "reiserfs"
-#~ msgstr "reiserfs"
-
-#~ msgid "xfs"
-#~ msgstr "xfs"
-
-#~ msgid "Partitions"
-#~ msgstr "Разделы"
-
-#~ msgid ""
-#~ "Important!\n"
-#~ "\n"
-#~ "Slackel needs, at the very minimum, one swap partition\n"
-#~ "and one Linux partition to hold its main directory tree.\n"
-#~ "\n"
-#~ "If you do not already have these needed partitions ready, \n"
-#~ "you should now click on the button 'Partitions'\n"
-#~ "in order to create them. Be aware that partitioning a disk\n"
-#~ "drive is a delicate operation which could lead to data loss\n"
-#~ "if not performed cautiously. It is therefore highly advisable\n"
-#~ "to backup important data before starting this procedure."
-#~ msgstr ""
-#~ "Внимание!\n"
-#~ "\n"
-#~ "Для установки Slackel требуются как минимум раздел\n"
-#~ "подкачки (swap) и раздел Linux для корневого каталога.\n"
-#~ "\n"
-#~ "Если у вас такие разделы ещё не подготовлены, создать\n"
-#~ "их сейчас возможно щёлкнув по кнопке 'Разделы'. Помните,\n"
-#~ "что разметка диска -- это деликатная операция, способная\n"
-#~ "в случае неправильных действий привести к потере данных.\n"
-#~ "Поэтому настоятельно рекомендуем предварительно\n"
-#~ "сделать резервные копии важных данных."
-
-#~ msgid ""
-#~ "<i>Warning: copy / installation wipes everything on the selected location."
-#~ "</i>"
-#~ msgstr "<i>Внимание: копирование/установка удалят текущее содержимое.</i>"
-
-#~ msgid "Copy location:"
-#~ msgstr "Копировать в:"
-
-#~ msgid "click here if you want to copy system to usb"
-#~ msgstr "щёлкните здесь, чтобы скопировать систему на флешку"
-
-#~ msgid "Install (e)LiLo"
-#~ msgstr "Установить (e)LiLo"
-
-#~ msgid "check this if you want to install (e)Lilo boot loader"
-#~ msgstr "отметьте для установки загрузчика (e)LiLo"
-
-#~ msgid "choose the Linux partition to hold the main directory tree."
-#~ msgstr "выберите раздел Linux для корневого каталога."
-
-#~ msgid "Install Grub"
-#~ msgstr "Установить GRUB"
-
-#~ msgid "check this if you want to install Grub boot loader"
-#~ msgstr "отметьте для установки загрузчика GRUB"
-
-#~ msgid "Install location:"
-#~ msgstr "Установить в:"
-
-#~ msgid "Choose the filesystem type to format partition(s)."
-#~ msgstr "Файловая система для форматирования разделов."
-
-#~ msgid "Home location:"
-#~ msgstr "Раздел домашних каталогов:"
-
-#~ msgid ""
-#~ "If you want to use a home partition to another disk then choose one from "
-#~ "here.\n"
-#~ "Otherwise leave it empty."
-#~ msgstr ""
-#~ "Выберите отдельный раздел для домашних каталогов.\n"
-#~ "Либо оставьте поле пустым."
-
-#~ msgid "Format Ηome"
-#~ msgstr "Форматировать домашний раздел"
-
-#~ msgid "check this if you want to format /home partition"
-#~ msgstr "отметьте для форматирования раздела /home"
-
-#~ msgid "click here if you want to install system on hard disk"
-#~ msgstr "щёлкните для установки системы на жёсткий диск"
-
-#~ msgid "Install live system"
-#~ msgstr "Установить 'живую' систему"
-
-#~ msgid "Actions needed before proceeding with system installation.\n"
-#~ msgstr "Прежде чем приступить к установке системы.\n"
-
-#~ msgid "Select a default system locale."
-#~ msgstr "Выберите системную локаль."
-
-#~ msgid "Select your preferred keyboard type."
-#~ msgstr "Выберите вид клавиатуры."
-
-#~ msgid ""
-#~ "Set root password, define login name, choose a password to be coupled "
-#~ "with your\n"
-#~ "login name."
-#~ msgstr ""
-#~ "Задайте пароль для root, \n"
-#~ "имя пользователя и пароль для него."
-
-#~ msgid "root password"
-#~ msgstr "пароль root"
-
-#~ msgid "user name"
-#~ msgstr "имя пользователя"
-
-#~ msgid "user password"
-#~ msgstr "пароль пользователя"
-
-#~ msgid ""
-#~ "Here you must define your login name which should only include\n"
-#~ "alphanumerical characters with no space or upper case letters. "
-#~ msgstr ""
-#~ "Здесь необходимо задать имя пользователя только из \n"
-#~ "строчных латинских букв, цифр и без пробелов."
-
-#~ msgid ""
-#~ "Choose a password or passphrase to be coupled with your\n"
-#~ "login name. Your password or passprase should include a mix\n"
-#~ "of upper and lower case letters, numbers, and even symbols\n"
-#~ "(such as the @, !, and &)"
-#~ msgstr ""
-#~ "Выберите пароль для пользователя. Пароль должен\n"
-#~ "содержать строчные и заглавные буквы, цифры и\n"
-#~ "символы (например, @, !, &)."
-
-#~ msgid ""
-#~ "On Linux systems, the superuser, or root, is a special user\n"
-#~ "account used for system administration. Here you must set\n"
-#~ "its password or passphrase. Remember, this password or\n"
-#~ "passphrase should include a mix of upper and lower case\n"
-#~ "letters, numbers, and even symbols (such as the @, !, and &)"
-#~ msgstr ""
-#~ "В системах Linux суперпользователь root является\n"
-#~ "специальной учетной записью, используемой для\n"
-#~ "администрирования системы. Здесь нужно задать\n"
-#~ "пароль. Пароль должен содержать строчные и\n"
-#~ "заглавные буквы, цифры и символы (например, @, !, &)."
-
-#~ msgid ""
-#~ "Here you must retype the superuser (root) password as a\n"
-#~ "confirmation of your choice."
-#~ msgstr ""
-#~ "Здесь нужно повторить пароль суперпользователя (root)\n"
-#~ "для исключения опечаток при наборе."
-
-#~ msgid ""
-#~ "Here you must retype your password as\n"
-#~ "a confirmation of your choice."
-#~ msgstr ""
-#~ "Здесь нужно повторить пароль пользователя\n"
-#~ "для исключения опечаток при наборе."
-
-#~ msgid "visible"
-#~ msgstr "показать"
-
-#~ msgid ""
-#~ "Check this box if you want to be able to see the password\n"
-#~ "you are typing."
-#~ msgstr "Отметьте, если хотите видеть введённые пароли."
-
-#~ msgid "Choose installation mode"
-#~ msgstr "Выберите режим установки"
-
-#~ msgid "core installation"
-#~ msgstr "урезанная установка"
-
-#~ msgid ""
-#~ "Core installation:\n"
-#~ "Only the minimum essentials for a console system to start are \n"
-#~ "included. A graphical environment is not provided. This is ideal \n"
-#~ "if you are an experienced user and want to customize your \n"
-#~ "installation for any specific purpose, such as a web server.\n"
-#~ "file server etc. "
-#~ msgstr ""
-#~ "Урезанная установка:\n"
-#~ "Устанавливается только минимально необходимое для\n"
-#~ "консольной системы. Графическое окружение отсутствует.\n"
-#~ "Подойдёт опытным пользователям, настраивающим\n"
-#~ "систему для конкретных целей, например, в качестве\n"
-#~ "вебсервера, файлового сервера и т.п."
-
-#~ msgid "basic installation"
-#~ msgstr "базовая установка"
-
-#~ msgid ""
-#~ "Basic installation:\n"
-#~ "This installs only a basic desktop environment, with very few \n"
-#~ "extra applications installed on top, such as a web browser and\n"
-#~ "the gslapt package manager. Ideal for advanced users that \n"
-#~ "would like to install a lightweight system and add their own\n"
-#~ "choice of applications. "
-#~ msgstr ""
-#~ "Базовая установка:\n"
-#~ "Устанавливается базовое окружение рабочего стола и\n"
-#~ "несколько приложений, таких как браузер и пакетный \n"
-#~ "менеджер gslapt. Подойдет продвинутым пользователям,\n"
-#~ "желающим установить облегчённую систему и добавить\n"
-#~ "приложения по своему выбору."
-
-#~ msgid "full installation"
-#~ msgstr "полная установка"
-
-#~ msgid ""
-#~ "Full installation:\n"
-#~ "Everything that is included in the iso is installed. That includes \n"
-#~ "a complete desktop environment\n"
-#~ "and a complete selection of matching applications,\n"
-#~ "always following the \"one application per task\" rationale. "
-#~ msgstr ""
-#~ "Полная установка:\n"
-#~ "Устанавливается всё, что есть в ISO. Сюда входят полное\n"
-#~ "окружение рабочего стола и полный набор приложений,\n"
-#~ "следующих принципу 'одно приложение на задачу'."
-
-#~ msgid ""
-#~ "Cannot install Grub boot loader on an xfs filesystem. System will not "
-#~ "boot. \n"
-#~ "Choose (e)Lilo instead. Please verify and correct."
-#~ msgstr ""
-#~ "Невозможно установить загрузчик GRUB на xfs. Система не загрузится.\n"
-#~ "Выберите (e)LiLo. Проверьте и исправьте."
-
-#~ msgid ""
-#~ "Cannot install both (e)Lilo and Grub boot loaders. Please verify and "
-#~ "correct."
-#~ msgstr ""
-#~ "Невозможно установить (e)LiLo и GRUB одновременно. Проверьте и исправьте."
-
-#~ msgid ""
-#~ "Your two root password entries do not match. Please verify and correct."
-#~ msgstr "Пароли root не совпадают. Проверьте и исправьте."
-
-#~ msgid ""
-#~ "Your two user password entries do not match. Please verify and correct."
-#~ msgstr "Пароли пользователя не совпадают. Проверьте и исправьте."
-
-#~ msgid ""
-#~ "root password, user name and user password entries \n"
-#~ "cannot be emtpy.\n"
-#~ "root password and user password should have at least 5 characters\n"
-#~ "\n"
-#~ "Please verify and correct.\n"
-#~ msgstr ""
-#~ "Поля пароль root, имя пользователя и пароль пользователя\n"
-#~ "не могут быть пустыми.\n"
-#~ "Пароли root и пользователя не могут быть короче 5 символов.\n"
-#~ "\n"
-#~ "Поверьте и исправьте.\n"
+msgstr "Мультизагрузочный USB"

@@ -28,7 +28,7 @@ AUTHOR='Dimitris Tzemos - dijemos@gmail.com'
 LICENCE='GPL v3+'
 SCRIPT=$(basename "$0")
 SCRIPT=$(readlink -f "$SCRIPT")
-VER=1.0
+VER=2.0
 
 version() {
   echo "Slackel USB installer and persistent creator for 32 and EFI/UEFI 64 v$VER"
@@ -73,7 +73,7 @@ ENCRYPT=""
 SCRIPT_NAME="$(basename $0)"
 NAME="persistent"
 ENCRYPT=""
-SVER=14.2
+SVER=15.0
 
 function check_root(){
 # make sure I am root

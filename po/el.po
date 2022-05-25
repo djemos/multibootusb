@@ -2,124 +2,146 @@ msgid ""
 msgstr ""
 "Project-Id-Version: multibootusb-1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 21:26+0200\n"
-"PO-Revision-Date: 2019-03-12 23:26+0200\n"
+"POT-Creation-Date: 2022-04-29 15:07+0300\n"
+"PO-Revision-Date: 2022-04-29 15:07+0300\n"
 "Last-Translator: Dimitris Tzemos <dijemos@gmail.com>\n"
 "Language-Team: slackel <dijemos@gmail.com>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
 
-#: src/multibootusb.ui:76
+#: src/multibootusb.ui:141
 msgid "vfat"
 msgstr "vfat"
 
-#: src/multibootusb.ui:82 src/multibootusb.ui:1384 src/multibootusb.ui:1431
-#: src/multibootusb.ui:1477 src/multibootusb.ui:1546
+#: src/multibootusb.ui:149 src/multibootusb.ui:1566 src/multibootusb.ui:1608
+#: src/multibootusb.ui:1649 src/multibootusb.ui:1719
 msgid "Multiboot USB"
 msgstr "Δημιουργία multiboot iso usb"
 
-#: src/multibootusb.ui:100
+#: src/multibootusb.ui:168
 msgid "_File"
 msgstr "_Αρχείο"
 
-#: src/multibootusb.ui:130
+#: src/multibootusb.ui:182
+msgid "Quit"
+msgstr "Εξοδος"
+
+#: src/multibootusb.ui:198
 msgid "_Help"
 msgstr "_Βοήθεια"
 
-#: src/multibootusb.ui:173
-msgid "Select directory with iso images:"
-msgstr "Παρακαλώ επιλέξτε ένα κατάλογο με αρχεία iso."
-
-#: src/multibootusb.ui:228
-msgid "Find usb"
-msgstr "Εύρεση usb"
-
-#: src/multibootusb.ui:299 src/multibootusb.ui:313
-msgid "Choose the filesystem type to format usb."
-msgstr "Επιλέξτε τον τύπο του συστήματος αρχείων για τη διαμόρφωση του usb."
-
-#: src/multibootusb.ui:300
-msgid "Filesystem Type:"
-msgstr "Τύπος Συστήματος Αρχείων:"
-
-#: src/multibootusb.ui:368
-msgid "USB Label name:"
-msgstr "Ετικέτα USB:"
-
-#: src/multibootusb.ui:418
-msgid "Select time zone..."
-msgstr "Επιλογή ζώνης ώρας..."
-
-#: src/multibootusb.ui:467 src/multibootusb.ui:1898
-msgid "Language"
-msgstr "Γλώσσα συστήματος"
-
-#: src/multibootusb.ui:494
-msgid "keyboard"
-msgstr "Πληκτρολόγιο συστήματος"
-
-#: src/multibootusb.ui:581
-msgid "Create multiboot iso usb"
-msgstr "Δημιουργία multiboot iso usb"
-
-#: src/multibootusb.ui:673
+#: src/multibootusb.ui:206 src/multibootusb.ui:853
 msgid "About"
 msgstr "Περί"
 
-#: src/multibootusb.ui:1360
+#: src/multibootusb.ui:254
+msgid "Select directory with iso images:"
+msgstr "Παρακαλώ επιλέξτε ένα κατάλογο με αρχεία iso."
+
+#: src/multibootusb.ui:279
+msgid "Find"
+msgstr "Εύρεση"
+
+#: src/multibootusb.ui:330
+msgid "Find usb"
+msgstr "Εύρεση usb"
+
+#: src/multibootusb.ui:404 src/multibootusb.ui:418
+msgid "Choose the filesystem type to format usb."
+msgstr "Επιλέξτε τον τύπο του συστήματος αρχείων για τη διαμόρφωση του usb."
+
+#: src/multibootusb.ui:405
+msgid "Filesystem Type:"
+msgstr "Τύπος Συστήματος Αρχείων:"
+
+#: src/multibootusb.ui:474
+msgid "USB Label name:"
+msgstr "Ετικέτα USB:"
+
+#: src/multibootusb.ui:537
+msgid "Select time zone..."
+msgstr "Επιλογή ζώνης ώρας..."
+
+#: src/multibootusb.ui:600 src/multibootusb.ui:2079
+msgid "Language"
+msgstr "Γλώσσα συστήματος"
+
+#: src/multibootusb.ui:638
+msgid "keyboard"
+msgstr "Πληκτρολόγιο συστήματος"
+
+#: src/multibootusb.ui:728
+msgid "Create multiboot iso usb"
+msgstr "Δημιουργία multiboot iso usb"
+
+#: src/multibootusb.ui:748
+msgid "Stop"
+msgstr "Διακοπή"
+
+#: src/multibootusb.ui:1540
 msgid "translator-credits"
 msgstr "Δημήτρης Τζέμος <dijemos~at~gmail~dot~com>"
 
-#: src/multibootusb.ui:1394
+#: src/multibootusb.ui:1576
 msgid "Error encountered."
 msgstr "Συνέβη σφάλμα."
 
-#: src/multibootusb.ui:1440
+#: src/multibootusb.ui:1617
 msgid "Installation completed."
 msgstr "Η εγκατάσταση τελείωσε."
 
-#: src/multibootusb.ui:1553
+#: src/multibootusb.ui:1672 src/multibootusb.ui:1782 src/multibootusb.ui:1983
+#: src/multibootusb.ui:2157
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/multibootusb.ui:1686 src/multibootusb.ui:1797 src/multibootusb.ui:1998
+#: src/multibootusb.ui:2172
+msgid "OK"
+msgstr "Εντάξει"
+
+#: src/multibootusb.ui:1729
 msgid "Please choose a folder with iso images, not an iso file."
 msgstr "Παρακαλώ επιλέξτε ένα κατάλογο με αρχεία iso, όχι ένα αρχείο iso."
 
-#: src/multibootusb.ui:1668
+#: src/multibootusb.ui:1844
 msgid "Please select your preferred keyboard type and map."
 msgstr "Παρακαλώ επιλέξτε τον επιθυμητό τύπο πληκτρολογίου."
 
-#: src/multibootusb.ui:1705
+#: src/multibootusb.ui:1882
 msgid "keyboard type"
 msgstr "Τύπος πληκτρολογίου"
 
-#: src/multibootusb.ui:1739
+#: src/multibootusb.ui:1917
 msgid "keyboard map"
 msgstr "Διάταξη πληκτρολογίου"
 
-#: src/multibootusb.ui:1864
+#: src/multibootusb.ui:2046
 msgid "Please select a default system locale."
 msgstr "Παρακαλώ επιλέξτε τη γλώσσα συστήματος."
 
-#: src/multibootusb.ui:1910
+#: src/multibootusb.ui:2091
 msgid "Locale"
 msgstr "Τοπικότητα"
 
-#: src/multibootusb.ui:1951
+#: src/multibootusb.ui:2133
 msgid "Select time zone"
 msgstr "Επιλογή ζώνης ώρας"
 
-#: src/multibootusb.ui:2017
+#: src/multibootusb.ui:2200
 msgid "Please select your time zone:"
 msgstr "Παρακαλούμε επιλέξτε ζώνη ώρας:"
 
-#: src/multibootusb.ui:2053
+#: src/multibootusb.ui:2238
 msgid "General area"
 msgstr "Γενική περιοχή"
 
-#: src/multibootusb.ui:2086
+#: src/multibootusb.ui:2273
 msgid "Location"
 msgstr "Τοποθεσία"
 
