@@ -2,7 +2,7 @@
 
 pkgname=multibootusb
 pkgver=2.0
-pkgrel=1dj
+pkgrel=2dj
 source=("http://www.slackel.gr/repo/source/slackel-source/multibootusb/$pkgname-$pkgver.tar.bz2")
 url="http://slackel.gr"
 
