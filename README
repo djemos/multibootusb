@@ -20,7 +20,7 @@ sudo spkg multibootusb-2.0-x86_64-1dj.txz
 or for 32bit: 
 sudo spkg multibootusb-2.0-i586-1dj.txz
 
-The SLKBUILD source package can be found on http://www.slackel.gr/repo/source/slackel-source/slackel-multibootusb/
+The SLKBUILD source package can be found on http://www.slackel.gr/repo/source/slackel-source/multibootusb/
 
 Copyright (C) 2022 Dimitris Tzemos <dijemos@gmail.com>
 This program is free software: you can redistribute it and/or modify it under the terms 
