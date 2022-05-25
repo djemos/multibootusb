@@ -1,9 +1,9 @@
 #Packager: Dimitris Tzemos <dijemos@gmail.com>
 
 pkgname=multibootusb
-pkgver=1.0
-pkgrel=4dj
-source=("http://www.slackel.gr/repo/source/slackel-source/multibootusb-1.0/$pkgname-$pkgver.tar.bz2")
+pkgver=2.0
+pkgrel=1dj
+source=("http://www.slackel.gr/repo/source/slackel-source/multibootusb/$pkgname-$pkgver.tar.bz2")
 url="http://slackel.gr"
 
 slackdesc=\
