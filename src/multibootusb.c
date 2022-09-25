@@ -187,10 +187,10 @@ fclose(f);
 }
 
 
-void readfile(gchar registered_keymaplist[131][30]){
+void readfile(gchar registered_keymaplist[133][30]){
 	static const char filename[] = "/usr/share/salixtools/keymaps";
 	FILE *file = fopen ( filename, "r" );
-	char dest1[133][30];
+	char dest1[135][30];
 	int i,ii=0,i2=0;
 	if ( file != NULL )
 	{ 
@@ -212,10 +212,10 @@ void readfile(gchar registered_keymaplist[131][30]){
 }
 
 int is_registered_keymap(char *keymap) {
-	char registered_keymaplist[131][30];
+	char registered_keymaplist[133][30];
 	int i,found=0;
 	readfile(registered_keymaplist);
-	for (i=0;i<131;i++) {
+	for (i=0;i<133;i++) {
 		 if (strcmp(keymap,registered_keymaplist[i])==0) {
 							found=1;return found;
 							}
@@ -388,9 +388,9 @@ void on_copy_btn_clicked (GtkWidget *widget, gpointer user_data) {
 ////
 
 void on_timezonebutton_clicked(GtkWidget *widget, gpointer user_data) {
-	gchar *continents[16] = {"Africa", "America", "Antarctica", "Asia", 
+	gchar *continents[17] = {"Africa", "America", "Antarctica", "Asia", 
 			"Atlantic", "Australia", "Europe", "Indian", 
-			"Pacific", "US", "Mexico", "Chile",
+			"Pacific", "US", "Mexico", "Chile", "Mideast",
 			"Canada", "Brazil", "Arctic", "Etc"};
 	GtkWidget *timezonewindow;
 	GtkTreeView *listwidget,*locationlistwidget;
