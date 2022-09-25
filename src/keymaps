@@ -51,8 +51,8 @@ fr-pc|fr||
 fr_CH-latin1|ch|fr|
 fr_CH|ch|fr|
 fr|fr|oss|
-gr-pc|us,el||grp:alt_shift_toggle,grp_led:scroll
-gr|us,el||grp:alt_shift_toggle,grp_led:scroll
+gr-pc|us,gr||grp:alt_shift_toggle,grp_led:scroll
+gr|us,gr||grp:alt_shift_toggle,grp_led:scroll
 hu|hu||
 il|us,il||grp:alt_shift_toggle
 is-latin1-us|us,is||grp:alt_shift_toggle
