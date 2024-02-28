@@ -3,7 +3,8 @@
 pkgname=multibootusb
 pkgver=2.0
 pkgrel=2dj
-source=("http://www.slackel.gr/repo/source/slackel-source/multibootusb/$pkgname-$pkgver.tar.bz2")
+#source=("http://www.slackel.gr/repo/source/slackel-source/multibootusb/$pkgname-$pkgver.tar.bz2")
+source=("$pkgname.tar.bz2")
 url="http://slackel.gr"
 
 slackdesc=\
@@ -14,7 +15,7 @@ slackdesc=\
 )
 
 build() {
-	cd $SRC/$pkgname-$pkgver
+	cd $SRC/$pkgname
 	export LDFLAGS='-export-dynamic'
 	cmake -DCMAKE_INSTALL_PREFIX=/usr .
 		
