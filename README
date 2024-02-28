@@ -6,12 +6,14 @@ To download and create the package type:
 mkdir build 
 cd build 
 git clone https://github.com/djemos/multibootusb.git
-
 mv install-upgrade-kernel-ext-usb-gtk/SLKBUILD ./
-
 tar -cvjSf multibootusb.tar.bz2 multibootusb
-
 fakeroot slkbuild -X
+
+or
+git clone https://github.com/djemos/multibootusb.git
+cd multibootusb
+sh maketxz.sh
 
 To install the package type:
 for 64bit:
